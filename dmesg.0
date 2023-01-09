@@ -1,0 +1,1412 @@
+[    0.000000] kernel: Linux version 5.4.0-122-generic (buildd@lcy02-amd64-095) (gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1)) #138-Ubuntu SMP Wed Jun 22 15:00:31 UTC 2022 (Ubuntu 5.4.0-122.138-generic 5.4.192)
+[    0.000000] kernel: Command line: BOOT_IMAGE=/vmlinuz-5.4.0-122-generic root=/dev/mapper/ubuntu-root ro audit=1 maybe-ubiquity
+[    0.000000] kernel: KERNEL supported cpus:
+[    0.000000] kernel:   Intel GenuineIntel
+[    0.000000] kernel:   AMD AuthenticAMD
+[    0.000000] kernel:   Hygon HygonGenuine
+[    0.000000] kernel:   Centaur CentaurHauls
+[    0.000000] kernel:   zhaoxin   Shanghai  
+[    0.000000] kernel: Disabled fast string operations
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+[    0.000000] kernel: x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+[    0.000000] kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] kernel: x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+[    0.000000] kernel: x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+[    0.000000] kernel: x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+[    0.000000] kernel: x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8
+[    0.000000] kernel: x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.
+[    0.000000] kernel: BIOS-provided physical RAM map:
+[    0.000000] kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009f3ff] usable
+[    0.000000] kernel: BIOS-e820: [mem 0x000000000009f400-0x000000000009ffff] reserved
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+[    0.000000] kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000bfedffff] usable
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000bfee0000-0x00000000bfefefff] ACPI data
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000bfeff000-0x00000000bfefffff] ACPI NVS
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000bff00000-0x00000000bfffffff] usable
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] kernel: BIOS-e820: [mem 0x00000000fffe0000-0x00000000ffffffff] reserved
+[    0.000000] kernel: BIOS-e820: [mem 0x0000000100000000-0x000000023fffffff] usable
+[    0.000000] kernel: NX (Execute Disable) protection: active
+[    0.000000] kernel: SMBIOS 2.7 present.
+[    0.000000] kernel: DMI: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 11/12/2020
+[    0.000000] kernel: vmware: hypercall mode: 0x00
+[    0.000000] kernel: Hypervisor detected: VMware
+[    0.000000] kernel: vmware: TSC freq read from hypervisor : 2394.374 MHz
+[    0.000000] kernel: vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+[    0.000000] kernel: vmware: using sched offset of 4596535057 ns
+[    0.000001] kernel: tsc: Detected 2394.374 MHz processor
+[    0.004138] kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.004139] kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.004143] kernel: last_pfn = 0x240000 max_arch_pfn = 0x400000000
+[    0.004162] kernel: MTRR default type: uncachable
+[    0.004162] kernel: MTRR fixed ranges enabled:
+[    0.004163] kernel:   00000-9FFFF write-back
+[    0.004164] kernel:   A0000-BFFFF uncachable
+[    0.004164] kernel:   C0000-CFFFF write-protect
+[    0.004165] kernel:   D0000-EFFFF uncachable
+[    0.004166] kernel:   F0000-FFFFF write-protect
+[    0.004166] kernel: MTRR variable ranges enabled:
+[    0.004167] kernel:   0 base 00000000000 mask 7FC00000000 write-back
+[    0.004168] kernel:   1 base 000C0000000 mask 7FFC0000000 uncachable
+[    0.004169] kernel:   2 disabled
+[    0.004169] kernel:   3 disabled
+[    0.004169] kernel:   4 disabled
+[    0.004170] kernel:   5 disabled
+[    0.004170] kernel:   6 disabled
+[    0.004170] kernel:   7 disabled
+[    0.004181] kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.004194] kernel: total RAM covered: 15360M
+[    0.004616] kernel: Found optimal setting for mtrr clean up
+[    0.004617] kernel:  gran_size: 64K         chunk_size: 64K         num_reg: 4          lose cover RAM: 0G
+[    0.004661] kernel: e820: update [mem 0xc0000000-0xffffffff] usable ==> reserved
+[    0.004665] kernel: last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+[    0.008936] kernel: found SMP MP-table at [mem 0x000f6a70-0x000f6a7f]
+[    0.009061] kernel: check: Scanning 1 areas for low memory corruption
+[    0.009101] kernel: Using GB pages for direct mapping
+[    0.009181] kernel: RAMDISK: [mem 0x2de2d000-0x32f0dfff]
+[    0.009188] kernel: ACPI: Early table checksum verification disabled
+[    0.009191] kernel: ACPI: RSDP 0x00000000000F6A00 000024 (v02 PTLTD )
+[    0.009194] kernel: ACPI: XSDT 0x00000000BFEEEA0F 00005C (v01 INTEL  440BX    06040000 VMW  01324272)
+[    0.009198] kernel: ACPI: FACP 0x00000000BFEFEE73 0000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+[    0.009204] kernel: ACPI: DSDT 0x00000000BFEEEC95 0101DE (v01 PTLTD  Custom   06040000 MSFT 03000001)
+[    0.009206] kernel: ACPI: FACS 0x00000000BFEFFFC0 000040
+[    0.009208] kernel: ACPI: FACS 0x00000000BFEFFFC0 000040
+[    0.009211] kernel: ACPI: BOOT 0x00000000BFEEEC6D 000028 (v01 PTLTD  $SBFTBL$ 06040000  LTP 00000001)
+[    0.009213] kernel: ACPI: APIC 0x00000000BFEEEC0F 00005E (v01 PTLTD  ? APIC   06040000  LTP 00000000)
+[    0.009215] kernel: ACPI: MCFG 0x00000000BFEEEBD3 00003C (v01 PTLTD  $PCITBL$ 06040000  LTP 00000001)
+[    0.009218] kernel: ACPI: SRAT 0x00000000BFEEEB0B 0000C8 (v02 VMWARE MEMPLUG  06040000 VMW  00000001)
+[    0.009220] kernel: ACPI: HPET 0x00000000BFEEEAD3 000038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
+[    0.009222] kernel: ACPI: WAET 0x00000000BFEEEAAB 000028 (v01 VMWARE VMW WAET 06040000 VMW  00000001)
+[    0.009224] kernel: ACPI: Reserving FACP table memory at [mem 0xbfefee73-0xbfefef66]
+[    0.009225] kernel: ACPI: Reserving DSDT table memory at [mem 0xbfeeec95-0xbfefee72]
+[    0.009226] kernel: ACPI: Reserving FACS table memory at [mem 0xbfefffc0-0xbfefffff]
+[    0.009227] kernel: ACPI: Reserving FACS table memory at [mem 0xbfefffc0-0xbfefffff]
+[    0.009228] kernel: ACPI: Reserving BOOT table memory at [mem 0xbfeeec6d-0xbfeeec94]
+[    0.009229] kernel: ACPI: Reserving APIC table memory at [mem 0xbfeeec0f-0xbfeeec6c]
+[    0.009229] kernel: ACPI: Reserving MCFG table memory at [mem 0xbfeeebd3-0xbfeeec0e]
+[    0.009230] kernel: ACPI: Reserving SRAT table memory at [mem 0xbfeeeb0b-0xbfeeebd2]
+[    0.009231] kernel: ACPI: Reserving HPET table memory at [mem 0xbfeeead3-0xbfeeeb0a]
+[    0.009231] kernel: ACPI: Reserving WAET table memory at [mem 0xbfeeeaab-0xbfeeead2]
+[    0.009249] kernel: ACPI: Local APIC address 0xfee00000
+[    0.009377] kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+[    0.009379] kernel: SRAT: PXM 0 -> APIC 0x02 -> Node 0
+[    0.009382] kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+[    0.009384] kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00100000-0xbfffffff]
+[    0.009385] kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x23fffffff]
+[    0.009388] kernel: NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0xbfffffff] -> [mem 0x00000000-0xbfffffff]
+[    0.009391] kernel: NUMA: Node 0 [mem 0x00000000-0xbfffffff] + [mem 0x100000000-0x23fffffff] -> [mem 0x00000000-0x23fffffff]
+[    0.009401] kernel: NODE_DATA(0) allocated [mem 0x23ffd5000-0x23fffffff]
+[    0.009610] kernel: Zone ranges:
+[    0.009611] kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.009612] kernel:   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.009613] kernel:   Normal   [mem 0x0000000100000000-0x000000023fffffff]
+[    0.009614] kernel:   Device   empty
+[    0.009615] kernel: Movable zone start for each node
+[    0.009618] kernel: Early memory node ranges
+[    0.009619] kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.009620] kernel:   node   0: [mem 0x0000000000100000-0x00000000bfedffff]
+[    0.009621] kernel:   node   0: [mem 0x00000000bff00000-0x00000000bfffffff]
+[    0.009621] kernel:   node   0: [mem 0x0000000100000000-0x000000023fffffff]
+[    0.009633] kernel: Zeroed struct page in unavailable ranges: 130 pages
+[    0.009634] kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000023fffffff]
+[    0.009636] kernel: On node 0 totalpages: 2097022
+[    0.009636] kernel:   DMA zone: 64 pages used for memmap
+[    0.009637] kernel:   DMA zone: 21 pages reserved
+[    0.009637] kernel:   DMA zone: 3998 pages, LIFO batch:0
+[    0.009725] kernel:   DMA32 zone: 12224 pages used for memmap
+[    0.009725] kernel:   DMA32 zone: 782304 pages, LIFO batch:63
+[    0.026591] kernel:   Normal zone: 20480 pages used for memmap
+[    0.026592] kernel:   Normal zone: 1310720 pages, LIFO batch:63
+[    0.053445] kernel: ACPI: PM-Timer IO Port: 0x1008
+[    0.053448] kernel: ACPI: Local APIC address 0xfee00000
+[    0.053455] kernel: ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[    0.053456] kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[    0.053492] kernel: IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-23
+[    0.053494] kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+[    0.053496] kernel: ACPI: IRQ0 used by override.
+[    0.053496] kernel: ACPI: IRQ9 used by override.
+[    0.053498] kernel: Using ACPI (MADT) for SMP configuration information
+[    0.053499] kernel: ACPI: HPET id: 0x8086af01 base: 0xfed00000
+[    0.053502] kernel: TSC deadline timer available
+[    0.053503] kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+[    0.053522] kernel: PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.053525] kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[    0.053526] kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000dbfff]
+[    0.053527] kernel: PM: Registered nosave memory: [mem 0x000dc000-0x000fffff]
+[    0.053530] kernel: PM: Registered nosave memory: [mem 0xbfee0000-0xbfefefff]
+[    0.053532] kernel: PM: Registered nosave memory: [mem 0xbfeff000-0xbfefffff]
+[    0.053534] kernel: PM: Registered nosave memory: [mem 0xc0000000-0xefffffff]
+[    0.053536] kernel: PM: Registered nosave memory: [mem 0xf0000000-0xf7ffffff]
+[    0.053537] kernel: PM: Registered nosave memory: [mem 0xf8000000-0xfebfffff]
+[    0.053539] kernel: PM: Registered nosave memory: [mem 0xfec00000-0xfec0ffff]
+[    0.053540] kernel: PM: Registered nosave memory: [mem 0xfec10000-0xfedfffff]
+[    0.053541] kernel: PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[    0.053543] kernel: PM: Registered nosave memory: [mem 0xfee01000-0xfffdffff]
+[    0.053544] kernel: PM: Registered nosave memory: [mem 0xfffe0000-0xffffffff]
+[    0.053546] kernel: [mem 0xc0000000-0xefffffff] available for PCI devices
+[    0.053548] kernel: Booting paravirtualized kernel on VMware hypervisor
+[    0.053551] kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+[    0.053559] kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+[    0.053905] kernel: percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u1048576
+[    0.053909] kernel: pcpu-alloc: s208896 r8192 d28672 u1048576 alloc=1*2097152
+[    0.053910] kernel: pcpu-alloc: [0] 0 1 
+[    0.053928] kernel: Built 1 zonelists, mobility grouping on.  Total pages: 2064233
+[    0.053929] kernel: Policy zone: Normal
+[    0.053931] kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-5.4.0-122-generic root=/dev/mapper/ubuntu-root ro audit=1 maybe-ubiquity
+[    0.053975] kernel: audit: enabled (after initialization)
+[    0.055147] kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.055726] kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.055781] kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+[    0.066041] kernel: Calgary: detecting Calgary via BIOS EBDA area
+[    0.066043] kernel: Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[    0.086518] kernel: Memory: 8058276K/8388088K available (14339K kernel code, 2400K rwdata, 9496K rodata, 2756K init, 4944K bss, 329812K reserved, 0K cma-reserved)
+[    0.086525] kernel: random: get_random_u64 called from kmem_cache_open+0x2d/0x410 with crng_init=0
+[    0.086641] kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[    0.086653] kernel: ftrace: allocating 44652 entries in 175 pages
+[    0.102628] kernel: rcu: Hierarchical RCU implementation.
+[    0.102630] kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+[    0.102631] kernel:         Tasks RCU enabled.
+[    0.102632] kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.102633] kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.105018] kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+[    0.105315] kernel: random: crng done (trusting CPU's manufacturer)
+[    0.107133] kernel: Console: colour VGA+ 80x25
+[    0.115625] kernel: printk: console [tty0] enabled
+[    0.115686] kernel: ACPI: Core revision 20190816
+[    0.115913] kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+[    0.116061] kernel: APIC: Switch to symmetric I/O mode setup
+[    0.116221] kernel: x2apic enabled
+[    0.116539] kernel: Switched APIC routing to physical x2apic.
+[    0.117672] kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.117850] kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x228374dae5d, max_idle_ns: 440795268352 ns
+[    0.118116] kernel: Calibrating delay loop (skipped) preset value.. 4788.74 BogoMIPS (lpj=9577498)
+[    0.118330] kernel: pid_max: default: 32768 minimum: 301
+[    0.118472] kernel: LSM: Security Framework initializing
+[    0.118600] kernel: Yama: becoming mindful.
+[    0.118715] kernel: AppArmor: AppArmor initialized
+[    0.118873] kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.119091] kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.119306] kernel: *** VALIDATE tmpfs ***
+[    0.119515] kernel: *** VALIDATE proc ***
+[    0.119646] kernel: *** VALIDATE cgroup1 ***
+[    0.119741] kernel: *** VALIDATE cgroup2 ***
+[    0.119897] kernel: Disabled fast string operations
+[    0.122152] kernel: Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+[    0.122290] kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+[    0.122445] kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.122660] kernel: Spectre V2 : Mitigation: Enhanced IBRS
+[    0.122808] kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    0.123055] kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    0.125819] kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[    0.126119] kernel: MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+[    0.126541] kernel: Freeing SMP alternatives memory: 40K
+[    0.129242] kernel: smpboot: CPU0: Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz (family: 0x6, model: 0x55, stepping: 0x7)
+[    0.129657] kernel: Performance Events: Skylake events, core PMU driver.
+[    0.129860] kernel: core: CPUID marked event: 'cpu cycles' unavailable
+[    0.130037] kernel: core: CPUID marked event: 'instructions' unavailable
+[    0.130113] kernel: core: CPUID marked event: 'bus cycles' unavailable
+[    0.130113] kernel: core: CPUID marked event: 'cache references' unavailable
+[    0.130113] kernel: core: CPUID marked event: 'cache misses' unavailable
+[    0.130113] kernel: core: CPUID marked event: 'branch instructions' unavailable
+[    0.130113] kernel: core: CPUID marked event: 'branch misses' unavailable
+[    0.130113] kernel: ... version:                1
+[    0.130113] kernel: ... bit width:              48
+[    0.130113] kernel: ... generic registers:      4
+[    0.130113] kernel: ... value mask:             0000ffffffffffff
+[    0.130113] kernel: ... max period:             000000007fffffff
+[    0.130113] kernel: ... fixed-purpose events:   0
+[    0.130113] kernel: ... event mask:             000000000000000f
+[    0.130113] kernel: rcu: Hierarchical SRCU implementation.
+[    0.130113] kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+[    0.130142] kernel: smp: Bringing up secondary CPUs ...
+[    0.130397] kernel: x86: Booting SMP configuration:
+[    0.130530] kernel: .... node  #0, CPUs:      #1
+[    0.012843] kernel: Disabled fast string operations
+[    0.012843] kernel: smpboot: CPU 1 Converting physical 2 to logical package 1
+[    0.012843] kernel: smpboot: CPU 1 Converting physical 0 to logical die 1
+[    0.131269] kernel: smp: Brought up 1 node, 2 CPUs
+[    0.131269] kernel: smpboot: Max logical packages: 2
+[    0.131269] kernel: smpboot: Total of 2 processors activated (9577.49 BogoMIPS)
+[    0.131269] kernel: devtmpfs: initialized
+[    0.131269] kernel: x86/mm: Memory block size: 128MB
+[    0.131269] kernel: PM: Registering ACPI NVS region [mem 0xbfeff000-0xbfefffff] (4096 bytes)
+[    0.131269] kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.131269] kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+[    0.131269] kernel: pinctrl core: initialized pinctrl subsystem
+[    0.131269] kernel: PM: RTC time: 12:12:10, date: 2023-01-06
+[    0.131269] kernel: NET: Registered protocol family 16
+[    0.131269] kernel: audit: initializing netlink subsys (enabled)
+[    0.131269] kernel: audit: type=2000 audit(1673007130.016:1): state=initialized audit_enabled=1 res=1
+[    0.131269] kernel: EISA bus registered
+[    0.134174] kernel: cpuidle: using governor ladder
+[    0.134236] kernel: cpuidle: using governor menu
+[    0.134313] kernel: Simple Boot Flag at 0x36 set to 0x80
+[    0.134394] kernel: ACPI: bus type PCI registered
+[    0.134450] kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.134654] kernel: PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xf0000000-0xf7ffffff] (base 0xf0000000)
+[    0.134765] kernel: PCI: MMCONFIG at [mem 0xf0000000-0xf7ffffff] reserved in E820
+[    0.134854] kernel: PCI: Using configuration type 1 for base access
+[    0.136338] kernel: HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.136338] kernel: HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.138174] kernel: ACPI: Added _OSI(Module Device)
+[    0.138235] kernel: ACPI: Added _OSI(Processor Device)
+[    0.138294] kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.138356] kernel: ACPI: Added _OSI(Processor Aggregator Device)
+[    0.138424] kernel: ACPI: Added _OSI(Linux-Dell-Video)
+[    0.138484] kernel: ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.138551] kernel: ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    0.147693] kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+[    0.149259] kernel: ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    0.152172] kernel: ACPI: Interpreter enabled
+[    0.152239] kernel: ACPI: (supports S0 S1 S4 S5)
+[    0.152294] kernel: ACPI: Using IOAPIC for interrupt routing
+[    0.152383] kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.152945] kernel: ACPI: Enabled 4 GPEs in block 00 to 0F
+[    0.189324] kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+[    0.189408] kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+[    0.189706] kernel: acpi PNP0A03:00: _OSC: platform does not support [AER LTR]
+[    0.189975] kernel: acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME PCIeCapability]
+[    0.191727] kernel: PCI host bridge to bus 0000:00
+[    0.191786] kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.191881] kernel: pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff window]
+[    0.191973] kernel: pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff window]
+[    0.192066] kernel: pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff window]
+[    0.192158] kernel: pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+[    0.192251] kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.192337] kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xfeff window]
+[    0.192419] kernel: pci_bus 0000:00: root bus resource [bus 00-7f]
+[    0.192529] kernel: pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+[    0.193436] kernel: pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+[    0.195621] kernel: pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+[    0.196323] kernel: pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+[    0.197036] kernel: pci 0000:00:07.1: reg 0x20: [io  0x1060-0x106f]
+[    0.197353] kernel: pci 0000:00:07.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[    0.197439] kernel: pci 0000:00:07.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[    0.197518] kernel: pci 0000:00:07.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[    0.197606] kernel: pci 0000:00:07.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[    0.197906] kernel: pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+[    0.198732] kernel: pci 0000:00:07.3: quirk: [io  0x1000-0x103f] claimed by PIIX4 ACPI
+[    0.198832] kernel: pci 0000:00:07.3: quirk: [io  0x1040-0x104f] claimed by PIIX4 SMB
+[    0.199219] kernel: pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+[    0.199667] kernel: pci 0000:00:07.7: reg 0x10: [io  0x1080-0x10bf]
+[    0.200007] kernel: pci 0000:00:07.7: reg 0x14: [mem 0xfebfe000-0xfebfffff 64bit]
+[    0.203684] kernel: pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+[    0.204494] kernel: pci 0000:00:0f.0: reg 0x10: [io  0x1070-0x107f]
+[    0.205194] kernel: pci 0000:00:0f.0: reg 0x14: [mem 0xe8000000-0xefffffff pref]
+[    0.205896] kernel: pci 0000:00:0f.0: reg 0x18: [mem 0xfe000000-0xfe7fffff]
+[    0.208298] kernel: pci 0000:00:0f.0: reg 0x30: [mem 0x00000000-0x00007fff pref]
+[    0.209064] kernel: pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+[    0.209579] kernel: pci 0000:00:10.0: reg 0x10: [io  0x1400-0x14ff]
+[    0.210039] kernel: pci 0000:00:10.0: reg 0x14: [mem 0xfeba0000-0xfebbffff 64bit]
+[    0.210503] kernel: pci 0000:00:10.0: reg 0x1c: [mem 0xfebc0000-0xfebdffff 64bit]
+[    0.211298] kernel: pci 0000:00:10.0: reg 0x30: [mem 0x00000000-0x00003fff pref]
+[    0.212000] kernel: pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+[    0.213850] kernel: pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+[    0.214661] kernel: pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+[    0.214998] kernel: pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+[    0.215793] kernel: pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+[    0.216126] kernel: pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+[    0.216923] kernel: pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+[    0.217265] kernel: pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+[    0.218062] kernel: pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+[    0.218374] kernel: pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+[    0.219167] kernel: pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+[    0.219505] kernel: pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+[    0.220300] kernel: pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+[    0.220640] kernel: pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+[    0.221437] kernel: pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+[    0.221763] kernel: pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+[    0.222563] kernel: pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+[    0.223170] kernel: pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+[    0.223968] kernel: pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[    0.224300] kernel: pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+[    0.225104] kernel: pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+[    0.225434] kernel: pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+[    0.226228] kernel: pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+[    0.226569] kernel: pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+[    0.227366] kernel: pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+[    0.227695] kernel: pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+[    0.228488] kernel: pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+[    0.228816] kernel: pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+[    0.229618] kernel: pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+[    0.229954] kernel: pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+[    0.230757] kernel: pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+[    0.231087] kernel: pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+[    0.231890] kernel: pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+[    0.232499] kernel: pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+[    0.233292] kernel: pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+[    0.233623] kernel: pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+[    0.234421] kernel: pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+[    0.234753] kernel: pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+[    0.235551] kernel: pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+[    0.235890] kernel: pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+[    0.236684] kernel: pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+[    0.237011] kernel: pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+[    0.237807] kernel: pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+[    0.238141] kernel: pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+[    0.238941] kernel: pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+[    0.239268] kernel: pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+[    0.240062] kernel: pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+[    0.240391] kernel: pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+[    0.241197] kernel: pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+[    0.241796] kernel: pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+[    0.242596] kernel: pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+[    0.242925] kernel: pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+[    0.243721] kernel: pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+[    0.244054] kernel: pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+[    0.244853] kernel: pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+[    0.245199] kernel: pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+[    0.245996] kernel: pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+[    0.246326] kernel: pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+[    0.247126] kernel: pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+[    0.247462] kernel: pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+[    0.248387] kernel: pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+[    0.248721] kernel: pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+[    0.249519] kernel: pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+[    0.249849] kernel: pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+[    0.250644] kernel: pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+[    0.253164] kernel: pci_bus 0000:01: extended config space not accessible
+[    0.261882] kernel: pci 0000:00:01.0: PCI bridge to [bus 01]
+[    0.262125] kernel: pci_bus 0000:02: extended config space not accessible
+[    0.262394] kernel: acpiphp: Slot [32] registered
+[    0.262462] kernel: acpiphp: Slot [33] registered
+[    0.262536] kernel: acpiphp: Slot [34] registered
+[    0.262611] kernel: acpiphp: Slot [35] registered
+[    0.262684] kernel: acpiphp: Slot [36] registered
+[    0.262756] kernel: acpiphp: Slot [37] registered
+[    0.262829] kernel: acpiphp: Slot [38] registered
+[    0.262902] kernel: acpiphp: Slot [39] registered
+[    0.262974] kernel: acpiphp: Slot [40] registered
+[    0.263047] kernel: acpiphp: Slot [41] registered
+[    0.263119] kernel: acpiphp: Slot [42] registered
+[    0.263191] kernel: acpiphp: Slot [43] registered
+[    0.263266] kernel: acpiphp: Slot [44] registered
+[    0.263339] kernel: acpiphp: Slot [45] registered
+[    0.263411] kernel: acpiphp: Slot [46] registered
+[    0.263485] kernel: acpiphp: Slot [47] registered
+[    0.263557] kernel: acpiphp: Slot [48] registered
+[    0.263629] kernel: acpiphp: Slot [49] registered
+[    0.263701] kernel: acpiphp: Slot [50] registered
+[    0.263773] kernel: acpiphp: Slot [51] registered
+[    0.263847] kernel: acpiphp: Slot [52] registered
+[    0.263920] kernel: acpiphp: Slot [53] registered
+[    0.263992] kernel: acpiphp: Slot [54] registered
+[    0.264066] kernel: acpiphp: Slot [55] registered
+[    0.264138] kernel: acpiphp: Slot [56] registered
+[    0.264210] kernel: acpiphp: Slot [57] registered
+[    0.264286] kernel: acpiphp: Slot [58] registered
+[    0.264360] kernel: acpiphp: Slot [59] registered
+[    0.264432] kernel: acpiphp: Slot [60] registered
+[    0.264504] kernel: acpiphp: Slot [61] registered
+[    0.264576] kernel: acpiphp: Slot [62] registered
+[    0.264648] kernel: acpiphp: Slot [63] registered
+[    0.265050] kernel: pci 0000:02:01.0: [15ad:07e0] type 00 class 0x010601
+[    0.266303] kernel: pci 0000:02:01.0: reg 0x24: [mem 0xfd5ff000-0xfd5fffff]
+[    0.266567] kernel: pci 0000:02:01.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+[    0.266956] kernel: pci 0000:02:01.0: PME# supported from D3hot
+[    0.275858] kernel: pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+[    0.275960] kernel: pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+[    0.276051] kernel: pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+[    0.276166] kernel: pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[    0.276265] kernel: pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+[    0.276374] kernel: pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff window] (subtractive decode)
+[    0.276483] kernel: pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff window] (subtractive decode)
+[    0.276592] kernel: pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff window] (subtractive decode)
+[    0.276701] kernel: pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xfebfffff window] (subtractive decode)
+[    0.276809] kernel: pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+[    0.276911] kernel: pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff window] (subtractive decode)
+[    0.277326] kernel: pci 0000:03:00.0: [15ad:07b0] type 00 class 0x020000
+[    0.278001] kernel: pci 0000:03:00.0: reg 0x10: [mem 0xfd4fc000-0xfd4fcfff]
+[    0.278367] kernel: pci 0000:03:00.0: reg 0x14: [mem 0xfd4fd000-0xfd4fdfff]
+[    0.278925] kernel: pci 0000:03:00.0: reg 0x18: [mem 0xfd4fe000-0xfd4fffff]
+[    0.279481] kernel: pci 0000:03:00.0: reg 0x1c: [io  0x4000-0x400f]
+[    0.280965] kernel: pci 0000:03:00.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+[    0.281438] kernel: pci 0000:03:00.0: supports D1 D2
+[    0.281496] kernel: pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    0.281875] kernel: pci 0000:03:00.0: disabling ASPM on pre-1.1 PCIe device.  You can enable it with 'pcie_aspm=force'
+[    0.290598] kernel: pci 0000:00:15.0: PCI bridge to [bus 03]
+[    0.290682] kernel: pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+[    0.290773] kernel: pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+[    0.299692] kernel: pci 0000:00:15.1: PCI bridge to [bus 04]
+[    0.299774] kernel: pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+[    0.299867] kernel: pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+[    0.299984] kernel: pci 0000:00:15.1:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+[    0.308902] kernel: pci 0000:00:15.2: PCI bridge to [bus 05]
+[    0.308986] kernel: pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+[    0.309080] kernel: pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+[    0.309192] kernel: pci 0000:00:15.2:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+[    0.318094] kernel: pci 0000:00:15.3: PCI bridge to [bus 06]
+[    0.318146] kernel: pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+[    0.318257] kernel: pci 0000:00:15.3:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[    0.327171] kernel: pci 0000:00:15.4: PCI bridge to [bus 07]
+[    0.327273] kernel: pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+[    0.327386] kernel: pci 0000:00:15.4:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[    0.336290] kernel: pci 0000:00:15.5: PCI bridge to [bus 08]
+[    0.336387] kernel: pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+[    0.336501] kernel: pci 0000:00:15.5:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+[    0.345397] kernel: pci 0000:00:15.6: PCI bridge to [bus 09]
+[    0.345494] kernel: pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+[    0.345607] kernel: pci 0000:00:15.6:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+[    0.354502] kernel: pci 0000:00:15.7: PCI bridge to [bus 0a]
+[    0.354601] kernel: pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    0.354713] kernel: pci 0000:00:15.7:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[    0.363618] kernel: pci 0000:00:16.0: PCI bridge to [bus 0b]
+[    0.363703] kernel: pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+[    0.363795] kernel: pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+[    0.363907] kernel: pci 0000:00:16.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+[    0.372817] kernel: pci 0000:00:16.1: PCI bridge to [bus 0c]
+[    0.372901] kernel: pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+[    0.372993] kernel: pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+[    0.373108] kernel: pci 0000:00:16.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+[    0.382016] kernel: pci 0000:00:16.2: PCI bridge to [bus 0d]
+[    0.382098] kernel: pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+[    0.382132] kernel: pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[    0.382243] kernel: pci 0000:00:16.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+[    0.391135] kernel: pci 0000:00:16.3: PCI bridge to [bus 0e]
+[    0.391234] kernel: pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+[    0.391347] kernel: pci 0000:00:16.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+[    0.401061] kernel: pci 0000:00:16.4: PCI bridge to [bus 0f]
+[    0.401197] kernel: pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+[    0.401344] kernel: pci 0000:00:16.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+[    0.410439] kernel: pci 0000:00:16.5: PCI bridge to [bus 10]
+[    0.410541] kernel: pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+[    0.410654] kernel: pci 0000:00:16.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+[    0.419549] kernel: pci 0000:00:16.6: PCI bridge to [bus 11]
+[    0.419646] kernel: pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    0.419757] kernel: pci 0000:00:16.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+[    0.428637] kernel: pci 0000:00:16.7: PCI bridge to [bus 12]
+[    0.428735] kernel: pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+[    0.428850] kernel: pci 0000:00:16.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+[    0.437720] kernel: pci 0000:00:17.0: PCI bridge to [bus 13]
+[    0.437804] kernel: pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+[    0.437895] kernel: pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[    0.438007] kernel: pci 0000:00:17.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+[    0.446877] kernel: pci 0000:00:17.1: PCI bridge to [bus 14]
+[    0.446960] kernel: pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+[    0.447051] kernel: pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+[    0.447164] kernel: pci 0000:00:17.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+[    0.456042] kernel: pci 0000:00:17.2: PCI bridge to [bus 15]
+[    0.456124] kernel: pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+[    0.456215] kernel: pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+[    0.456326] kernel: pci 0000:00:17.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+[    0.465199] kernel: pci 0000:00:17.3: PCI bridge to [bus 16]
+[    0.465296] kernel: pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+[    0.465411] kernel: pci 0000:00:17.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[    0.474277] kernel: pci 0000:00:17.4: PCI bridge to [bus 17]
+[    0.474372] kernel: pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+[    0.474484] kernel: pci 0000:00:17.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+[    0.483339] kernel: pci 0000:00:17.5: PCI bridge to [bus 18]
+[    0.483434] kernel: pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+[    0.483548] kernel: pci 0000:00:17.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+[    0.492401] kernel: pci 0000:00:17.6: PCI bridge to [bus 19]
+[    0.492497] kernel: pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+[    0.492609] kernel: pci 0000:00:17.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+[    0.501458] kernel: pci 0000:00:17.7: PCI bridge to [bus 1a]
+[    0.501555] kernel: pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+[    0.501667] kernel: pci 0000:00:17.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[    0.510546] kernel: pci 0000:00:18.0: PCI bridge to [bus 1b]
+[    0.510631] kernel: pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+[    0.510722] kernel: pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+[    0.510835] kernel: pci 0000:00:18.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+[    0.519863] kernel: pci 0000:00:18.1: PCI bridge to [bus 1c]
+[    0.519945] kernel: pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+[    0.520037] kernel: pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[    0.520149] kernel: pci 0000:00:18.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+[    0.529007] kernel: pci 0000:00:18.2: PCI bridge to [bus 1d]
+[    0.529103] kernel: pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+[    0.529214] kernel: pci 0000:00:18.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+[    0.538076] kernel: pci 0000:00:18.3: PCI bridge to [bus 1e]
+[    0.538149] kernel: pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+[    0.538262] kernel: pci 0000:00:18.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[    0.547131] kernel: pci 0000:00:18.4: PCI bridge to [bus 1f]
+[    0.547228] kernel: pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+[    0.547340] kernel: pci 0000:00:18.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+[    0.556205] kernel: pci 0000:00:18.5: PCI bridge to [bus 20]
+[    0.556300] kernel: pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+[    0.556412] kernel: pci 0000:00:18.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+[    0.565273] kernel: pci 0000:00:18.6: PCI bridge to [bus 21]
+[    0.565369] kernel: pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    0.565481] kernel: pci 0000:00:18.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+[    0.574350] kernel: pci 0000:00:18.7: PCI bridge to [bus 22]
+[    0.574448] kernel: pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+[    0.574560] kernel: pci 0000:00:18.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[    0.576511] kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 *9 10 11 14 15)
+[    0.576675] kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 10 *11 14 15)
+[    0.576835] kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 *7 9 10 11 14 15)
+[    0.576998] kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 9 *10 11 14 15)
+[    0.583489] kernel: iommu: Default domain type: Translated 
+[    0.583489] kernel: SCSI subsystem initialized
+[    0.583489] kernel: libata version 3.00 loaded.
+[    0.583489] kernel: pci 0000:00:0f.0: vgaarb: setting as boot VGA device
+[    0.583489] kernel: pci 0000:00:0f.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    0.583489] kernel: pci 0000:00:0f.0: vgaarb: bridge control possible
+[    0.583489] kernel: vgaarb: loaded
+[    0.583489] kernel: ACPI: bus type USB registered
+[    0.583489] kernel: usbcore: registered new interface driver usbfs
+[    0.583489] kernel: usbcore: registered new interface driver hub
+[    0.583489] kernel: usbcore: registered new device driver usb
+[    0.583489] kernel: pps_core: LinuxPPS API ver. 1 registered
+[    0.583489] kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.583489] kernel: PTP clock support registered
+[    0.583489] kernel: EDAC MC: Ver: 3.0.0
+[    0.583489] kernel: PCI: Using ACPI for IRQ routing
+[    0.624641] kernel: PCI: pci_cache_line_size set to 64 bytes
+[    0.625292] kernel: e820: reserve RAM buffer [mem 0x0009f400-0x0009ffff]
+[    0.625294] kernel: e820: reserve RAM buffer [mem 0xbfee0000-0xbfffffff]
+[    0.625388] kernel: NetLabel: Initializing
+[    0.625441] kernel: NetLabel:  domain hash size = 128
+[    0.625500] kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.625600] kernel: NetLabel:  unlabeled traffic allowed by default
+[    0.625594] kernel: audit: type=1409 audit(1673007130.508:2): netlabel: auid=0 ses=0 nlbl_domain=(default) nlbl_protocol=unlbl res=1
+[    0.625681] kernel: audit: type=1406 audit(1673007130.508:3): netlabel: auid=0 ses=0 unlbl_accept=1 old=0
+[    0.627463] kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[    0.627569] kernel: hpet0: 16 comparators, 64-bit 14.318180 MHz counter
+[    0.629689] kernel: clocksource: Switched to clocksource tsc-early
+[    0.636759] kernel: *** VALIDATE bpf ***
+[    0.636862] kernel: VFS: Disk quotas dquot_6.6.0
+[    0.636929] kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.637031] kernel: *** VALIDATE ramfs ***
+[    0.637085] kernel: *** VALIDATE hugetlbfs ***
+[    0.637250] kernel: AppArmor: AppArmor Filesystem Enabled
+[    0.637267] kernel: audit: type=1400 audit(1673007130.519:4): apparmor="STATUS" info="AppArmor Filesystem Enabled" pid=1 comm="swapper/0"
+[    0.637330] kernel: pnp: PnP ACPI init
+[    0.637663] kernel: system 00:00: [io  0x1000-0x103f] has been reserved
+[    0.637738] kernel: system 00:00: [io  0x1040-0x104f] has been reserved
+[    0.637815] kernel: system 00:00: [io  0x0cf0-0x0cf1] has been reserved
+[    0.637893] kernel: system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.637918] kernel: pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+[    0.637934] kernel: pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.637958] kernel: pnp 00:03: Plug and Play ACPI device, IDs VMW0003 PNP0f13 (active)
+[    0.638133] kernel: system 00:04: [mem 0xfed00000-0xfed003ff] has been reserved
+[    0.638217] kernel: system 00:04: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+[    0.639881] kernel: system 00:05: [io  0xfce0-0xfcff] has been reserved
+[    0.639957] kernel: system 00:05: [mem 0xf0000000-0xf7ffffff] has been reserved
+[    0.640039] kernel: system 00:05: [mem 0xfe800000-0xfe9fffff] has been reserved
+[    0.640122] kernel: system 00:05: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.644338] kernel: pnp: PnP ACPI: found 6 devices
+[    0.646610] kernel: thermal_sys: Registered thermal governor 'fair_share'
+[    0.646610] kernel: thermal_sys: Registered thermal governor 'bang_bang'
+[    0.646688] kernel: thermal_sys: Registered thermal governor 'step_wise'
+[    0.646762] kernel: thermal_sys: Registered thermal governor 'user_space'
+[    0.646836] kernel: thermal_sys: Registered thermal governor 'power_allocator'
+[    0.651415] kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.651629] kernel: pci 0000:00:15.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 03] add_size 200000 add_align 100000
+[    0.651761] kernel: pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+[    0.651862] kernel: pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+[    0.651962] kernel: pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+[    0.652061] kernel: pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+[    0.652160] kernel: pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+[    0.652259] kernel: pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+[    0.652358] kernel: pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+[    0.652457] kernel: pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+[    0.652559] kernel: pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+[    0.652659] kernel: pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+[    0.652758] kernel: pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+[    0.652857] kernel: pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+[    0.652956] kernel: pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+[    0.653055] kernel: pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+[    0.653153] kernel: pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+[    0.653253] kernel: pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+[    0.653351] kernel: pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+[    0.653450] kernel: pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+[    0.653549] kernel: pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+[    0.653648] kernel: pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+[    0.653747] kernel: pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+[    0.653860] kernel: pci 0000:00:15.0: BAR 15: assigned [mem 0xc0000000-0xc01fffff 64bit pref]
+[    0.653956] kernel: pci 0000:00:0f.0: BAR 6: assigned [mem 0xc0200000-0xc0207fff pref]
+[    0.654047] kernel: pci 0000:00:10.0: BAR 6: assigned [mem 0xc0208000-0xc020bfff pref]
+[    0.654142] kernel: pci 0000:00:15.3: BAR 13: no space for [io  size 0x1000]
+[    0.654222] kernel: pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.654304] kernel: pci 0000:00:15.4: BAR 13: no space for [io  size 0x1000]
+[    0.654383] kernel: pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.654466] kernel: pci 0000:00:15.5: BAR 13: no space for [io  size 0x1000]
+[    0.654544] kernel: pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.654627] kernel: pci 0000:00:15.6: BAR 13: no space for [io  size 0x1000]
+[    0.654706] kernel: pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.654788] kernel: pci 0000:00:15.7: BAR 13: no space for [io  size 0x1000]
+[    0.654867] kernel: pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.654950] kernel: pci 0000:00:16.3: BAR 13: no space for [io  size 0x1000]
+[    0.655028] kernel: pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.655111] kernel: pci 0000:00:16.4: BAR 13: no space for [io  size 0x1000]
+[    0.655190] kernel: pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.655272] kernel: pci 0000:00:16.5: BAR 13: no space for [io  size 0x1000]
+[    0.655351] kernel: pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.655434] kernel: pci 0000:00:16.6: BAR 13: no space for [io  size 0x1000]
+[    0.655513] kernel: pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.655598] kernel: pci 0000:00:16.7: BAR 13: no space for [io  size 0x1000]
+[    0.655676] kernel: pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.655758] kernel: pci 0000:00:17.3: BAR 13: no space for [io  size 0x1000]
+[    0.655836] kernel: pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.655917] kernel: pci 0000:00:17.4: BAR 13: no space for [io  size 0x1000]
+[    0.655995] kernel: pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.656077] kernel: pci 0000:00:17.5: BAR 13: no space for [io  size 0x1000]
+[    0.656155] kernel: pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.656236] kernel: pci 0000:00:17.6: BAR 13: no space for [io  size 0x1000]
+[    0.656314] kernel: pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.656396] kernel: pci 0000:00:17.7: BAR 13: no space for [io  size 0x1000]
+[    0.656474] kernel: pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.656555] kernel: pci 0000:00:18.2: BAR 13: no space for [io  size 0x1000]
+[    0.656640] kernel: pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+[    0.656725] kernel: pci 0000:00:18.3: BAR 13: no space for [io  size 0x1000]
+[    0.656806] kernel: pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.656892] kernel: pci 0000:00:18.4: BAR 13: no space for [io  size 0x1000]
+[    0.656972] kernel: pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.657055] kernel: pci 0000:00:18.5: BAR 13: no space for [io  size 0x1000]
+[    0.657132] kernel: pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.657214] kernel: pci 0000:00:18.6: BAR 13: no space for [io  size 0x1000]
+[    0.657292] kernel: pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.657373] kernel: pci 0000:00:18.7: BAR 13: no space for [io  size 0x1000]
+[    0.657451] kernel: pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.657536] kernel: pci 0000:00:18.7: BAR 13: no space for [io  size 0x1000]
+[    0.657741] kernel: pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.657832] kernel: pci 0000:00:18.6: BAR 13: no space for [io  size 0x1000]
+[    0.657910] kernel: pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.657992] kernel: pci 0000:00:18.5: BAR 13: no space for [io  size 0x1000]
+[    0.658070] kernel: pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.658157] kernel: pci 0000:00:18.4: BAR 13: no space for [io  size 0x1000]
+[    0.658235] kernel: pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.658317] kernel: pci 0000:00:18.3: BAR 13: no space for [io  size 0x1000]
+[    0.658394] kernel: pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.658476] kernel: pci 0000:00:18.2: BAR 13: no space for [io  size 0x1000]
+[    0.658554] kernel: pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+[    0.658635] kernel: pci 0000:00:17.7: BAR 13: no space for [io  size 0x1000]
+[    0.658713] kernel: pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.658795] kernel: pci 0000:00:17.6: BAR 13: no space for [io  size 0x1000]
+[    0.658872] kernel: pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.658954] kernel: pci 0000:00:17.5: BAR 13: no space for [io  size 0x1000]
+[    0.659032] kernel: pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.659113] kernel: pci 0000:00:17.4: BAR 13: no space for [io  size 0x1000]
+[    0.659191] kernel: pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.659273] kernel: pci 0000:00:17.3: BAR 13: no space for [io  size 0x1000]
+[    0.659351] kernel: pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.659432] kernel: pci 0000:00:16.7: BAR 13: no space for [io  size 0x1000]
+[    0.659510] kernel: pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.659597] kernel: pci 0000:00:16.6: BAR 13: no space for [io  size 0x1000]
+[    0.659675] kernel: pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.659757] kernel: pci 0000:00:16.5: BAR 13: no space for [io  size 0x1000]
+[    0.659835] kernel: pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.659917] kernel: pci 0000:00:16.4: BAR 13: no space for [io  size 0x1000]
+[    0.659995] kernel: pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.660077] kernel: pci 0000:00:16.3: BAR 13: no space for [io  size 0x1000]
+[    0.660155] kernel: pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.660237] kernel: pci 0000:00:15.7: BAR 13: no space for [io  size 0x1000]
+[    0.660315] kernel: pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+[    0.660397] kernel: pci 0000:00:15.6: BAR 13: no space for [io  size 0x1000]
+[    0.660474] kernel: pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+[    0.660556] kernel: pci 0000:00:15.5: BAR 13: no space for [io  size 0x1000]
+[    0.660634] kernel: pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+[    0.660716] kernel: pci 0000:00:15.4: BAR 13: no space for [io  size 0x1000]
+[    0.660794] kernel: pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+[    0.660875] kernel: pci 0000:00:15.3: BAR 13: no space for [io  size 0x1000]
+[    0.660953] kernel: pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+[    0.661035] kernel: pci 0000:00:01.0: PCI bridge to [bus 01]
+[    0.661175] kernel: pci 0000:02:01.0: BAR 6: assigned [mem 0xfd500000-0xfd50ffff pref]
+[    0.661265] kernel: pci 0000:00:11.0: PCI bridge to [bus 02]
+[    0.661339] kernel: pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+[    0.661438] kernel: pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+[    0.661535] kernel: pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[    0.661661] kernel: pci 0000:03:00.0: BAR 6: assigned [mem 0xfd400000-0xfd40ffff pref]
+[    0.661751] kernel: pci 0000:00:15.0: PCI bridge to [bus 03]
+[    0.661824] kernel: pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+[    0.661922] kernel: pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+[    0.662020] kernel: pci 0000:00:15.0:   bridge window [mem 0xc0000000-0xc01fffff 64bit pref]
+[    0.662166] kernel: pci 0000:00:15.1: PCI bridge to [bus 04]
+[    0.662240] kernel: pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+[    0.662338] kernel: pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+[    0.662436] kernel: pci 0000:00:15.1:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+[    0.662567] kernel: pci 0000:00:15.2: PCI bridge to [bus 05]
+[    0.662640] kernel: pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+[    0.662738] kernel: pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+[    0.662835] kernel: pci 0000:00:15.2:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+[    0.662965] kernel: pci 0000:00:15.3: PCI bridge to [bus 06]
+[    0.663053] kernel: pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+[    0.663151] kernel: pci 0000:00:15.3:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[    0.663283] kernel: pci 0000:00:15.4: PCI bridge to [bus 07]
+[    0.663370] kernel: pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+[    0.663468] kernel: pci 0000:00:15.4:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[    0.663600] kernel: pci 0000:00:15.5: PCI bridge to [bus 08]
+[    0.663687] kernel: pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+[    0.663785] kernel: pci 0000:00:15.5:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+[    0.663917] kernel: pci 0000:00:15.6: PCI bridge to [bus 09]
+[    0.664005] kernel: pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+[    0.664104] kernel: pci 0000:00:15.6:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+[    0.664234] kernel: pci 0000:00:15.7: PCI bridge to [bus 0a]
+[    0.664322] kernel: pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    0.664419] kernel: pci 0000:00:15.7:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[    0.664549] kernel: pci 0000:00:16.0: PCI bridge to [bus 0b]
+[    0.664623] kernel: pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+[    0.664721] kernel: pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+[    0.664819] kernel: pci 0000:00:16.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+[    0.664949] kernel: pci 0000:00:16.1: PCI bridge to [bus 0c]
+[    0.665022] kernel: pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+[    0.665121] kernel: pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+[    0.665218] kernel: pci 0000:00:16.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+[    0.665349] kernel: pci 0000:00:16.2: PCI bridge to [bus 0d]
+[    0.665422] kernel: pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+[    0.665519] kernel: pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[    0.665618] kernel: pci 0000:00:16.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+[    0.665751] kernel: pci 0000:00:16.3: PCI bridge to [bus 0e]
+[    0.665838] kernel: pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+[    0.665936] kernel: pci 0000:00:16.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+[    0.666066] kernel: pci 0000:00:16.4: PCI bridge to [bus 0f]
+[    0.666159] kernel: pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+[    0.666260] kernel: pci 0000:00:16.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+[    0.666390] kernel: pci 0000:00:16.5: PCI bridge to [bus 10]
+[    0.666477] kernel: pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+[    0.666580] kernel: pci 0000:00:16.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+[    0.666710] kernel: pci 0000:00:16.6: PCI bridge to [bus 11]
+[    0.666797] kernel: pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    0.666895] kernel: pci 0000:00:16.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+[    0.667025] kernel: pci 0000:00:16.7: PCI bridge to [bus 12]
+[    0.667113] kernel: pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+[    0.667210] kernel: pci 0000:00:16.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+[    0.667340] kernel: pci 0000:00:17.0: PCI bridge to [bus 13]
+[    0.667413] kernel: pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+[    0.667512] kernel: pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[    0.667610] kernel: pci 0000:00:17.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+[    0.667741] kernel: pci 0000:00:17.1: PCI bridge to [bus 14]
+[    0.667816] kernel: pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+[    0.667914] kernel: pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+[    0.668011] kernel: pci 0000:00:17.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+[    0.668142] kernel: pci 0000:00:17.2: PCI bridge to [bus 15]
+[    0.668215] kernel: pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+[    0.668313] kernel: pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+[    0.668410] kernel: pci 0000:00:17.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+[    0.668540] kernel: pci 0000:00:17.3: PCI bridge to [bus 16]
+[    0.668628] kernel: pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+[    0.668726] kernel: pci 0000:00:17.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[    0.668860] kernel: pci 0000:00:17.4: PCI bridge to [bus 17]
+[    0.668948] kernel: pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+[    0.669045] kernel: pci 0000:00:17.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+[    0.669176] kernel: pci 0000:00:17.5: PCI bridge to [bus 18]
+[    0.669264] kernel: pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+[    0.669362] kernel: pci 0000:00:17.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+[    0.669493] kernel: pci 0000:00:17.6: PCI bridge to [bus 19]
+[    0.669584] kernel: pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+[    0.669681] kernel: pci 0000:00:17.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+[    0.669811] kernel: pci 0000:00:17.7: PCI bridge to [bus 1a]
+[    0.669898] kernel: pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+[    0.669996] kernel: pci 0000:00:17.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[    0.670136] kernel: pci 0000:00:18.0: PCI bridge to [bus 1b]
+[    0.670209] kernel: pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+[    0.670307] kernel: pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+[    0.670404] kernel: pci 0000:00:18.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+[    0.670534] kernel: pci 0000:00:18.1: PCI bridge to [bus 1c]
+[    0.670607] kernel: pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+[    0.670706] kernel: pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[    0.670803] kernel: pci 0000:00:18.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+[    0.670934] kernel: pci 0000:00:18.2: PCI bridge to [bus 1d]
+[    0.671027] kernel: pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+[    0.671128] kernel: pci 0000:00:18.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+[    0.671261] kernel: pci 0000:00:18.3: PCI bridge to [bus 1e]
+[    0.671351] kernel: pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+[    0.671449] kernel: pci 0000:00:18.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[    0.671581] kernel: pci 0000:00:18.4: PCI bridge to [bus 1f]
+[    0.671669] kernel: pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+[    0.671766] kernel: pci 0000:00:18.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+[    0.671897] kernel: pci 0000:00:18.5: PCI bridge to [bus 20]
+[    0.671985] kernel: pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+[    0.672208] kernel: pci 0000:00:18.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+[    0.672339] kernel: pci 0000:00:18.6: PCI bridge to [bus 21]
+[    0.672427] kernel: pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    0.672524] kernel: pci 0000:00:18.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+[    0.672655] kernel: pci 0000:00:18.7: PCI bridge to [bus 22]
+[    0.672744] kernel: pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+[    0.672842] kernel: pci 0000:00:18.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[    0.672973] kernel: pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff window]
+[    0.673056] kernel: pci_bus 0000:00: resource 5 [mem 0x000d0000-0x000d3fff window]
+[    0.673139] kernel: pci_bus 0000:00: resource 6 [mem 0x000d4000-0x000d7fff window]
+[    0.673221] kernel: pci_bus 0000:00: resource 7 [mem 0x000d8000-0x000dbfff window]
+[    0.673304] kernel: pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+[    0.673387] kernel: pci_bus 0000:00: resource 9 [io  0x0000-0x0cf7 window]
+[    0.673463] kernel: pci_bus 0000:00: resource 10 [io  0x0d00-0xfeff window]
+[    0.673540] kernel: pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+[    0.673610] kernel: pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+[    0.673687] kernel: pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[    0.673776] kernel: pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff window]
+[    0.673859] kernel: pci_bus 0000:02: resource 5 [mem 0x000d0000-0x000d3fff window]
+[    0.673941] kernel: pci_bus 0000:02: resource 6 [mem 0x000d4000-0x000d7fff window]
+[    0.674024] kernel: pci_bus 0000:02: resource 7 [mem 0x000d8000-0x000dbfff window]
+[    0.674106] kernel: pci_bus 0000:02: resource 8 [mem 0xc0000000-0xfebfffff window]
+[    0.674194] kernel: pci_bus 0000:02: resource 9 [io  0x0000-0x0cf7 window]
+[    0.674271] kernel: pci_bus 0000:02: resource 10 [io  0x0d00-0xfeff window]
+[    0.674348] kernel: pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+[    0.674419] kernel: pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+[    0.674495] kernel: pci_bus 0000:03: resource 2 [mem 0xc0000000-0xc01fffff 64bit pref]
+[    0.674585] kernel: pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+[    0.674655] kernel: pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+[    0.674732] kernel: pci_bus 0000:04: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+[    0.674821] kernel: pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+[    0.674891] kernel: pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+[    0.674968] kernel: pci_bus 0000:05: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+[    0.675057] kernel: pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+[    0.675134] kernel: pci_bus 0000:06: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[    0.675223] kernel: pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+[    0.675299] kernel: pci_bus 0000:07: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[    0.675389] kernel: pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+[    0.675466] kernel: pci_bus 0000:08: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+[    0.675557] kernel: pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+[    0.675634] kernel: pci_bus 0000:09: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+[    0.675723] kernel: pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+[    0.675800] kernel: pci_bus 0000:0a: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[    0.675889] kernel: pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+[    0.675959] kernel: pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+[    0.676036] kernel: pci_bus 0000:0b: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+[    0.676125] kernel: pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+[    0.676195] kernel: pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+[    0.676272] kernel: pci_bus 0000:0c: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+[    0.676361] kernel: pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+[    0.676431] kernel: pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+[    0.676507] kernel: pci_bus 0000:0d: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+[    0.676597] kernel: pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+[    0.676673] kernel: pci_bus 0000:0e: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+[    0.676762] kernel: pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+[    0.676839] kernel: pci_bus 0000:0f: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+[    0.676928] kernel: pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+[    0.677005] kernel: pci_bus 0000:10: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+[    0.677094] kernel: pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+[    0.677170] kernel: pci_bus 0000:11: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+[    0.677260] kernel: pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+[    0.677337] kernel: pci_bus 0000:12: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+[    0.677426] kernel: pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+[    0.677496] kernel: pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+[    0.677573] kernel: pci_bus 0000:13: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+[    0.677662] kernel: pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+[    0.677732] kernel: pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+[    0.677809] kernel: pci_bus 0000:14: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+[    0.677899] kernel: pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+[    0.677969] kernel: pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+[    0.678045] kernel: pci_bus 0000:15: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+[    0.678145] kernel: pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+[    0.678222] kernel: pci_bus 0000:16: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[    0.678311] kernel: pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+[    0.678388] kernel: pci_bus 0000:17: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+[    0.678477] kernel: pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+[    0.678554] kernel: pci_bus 0000:18: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+[    0.678643] kernel: pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+[    0.678719] kernel: pci_bus 0000:19: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+[    0.678808] kernel: pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+[    0.678885] kernel: pci_bus 0000:1a: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[    0.678974] kernel: pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+[    0.679044] kernel: pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+[    0.679121] kernel: pci_bus 0000:1b: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+[    0.679209] kernel: pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+[    0.679280] kernel: pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+[    0.679356] kernel: pci_bus 0000:1c: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+[    0.679445] kernel: pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+[    0.679522] kernel: pci_bus 0000:1d: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+[    0.679614] kernel: pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+[    0.679690] kernel: pci_bus 0000:1e: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[    0.679779] kernel: pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+[    0.679856] kernel: pci_bus 0000:1f: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+[    0.679945] kernel: pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+[    0.680022] kernel: pci_bus 0000:20: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+[    0.680111] kernel: pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+[    0.680188] kernel: pci_bus 0000:21: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+[    0.680277] kernel: pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+[    0.680354] kernel: pci_bus 0000:22: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[    0.680687] kernel: NET: Registered protocol family 2
+[    0.680999] kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.681931] kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[    0.682136] kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    0.682517] kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    0.682693] kernel: TCP: Hash tables configured (established 65536 bind 65536)
+[    0.682844] kernel: UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[    0.682968] kernel: UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[    0.683094] kernel: NET: Registered protocol family 1
+[    0.683157] kernel: NET: Registered protocol family 44
+[    0.683219] kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    0.683379] kernel: pci 0000:00:0f.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    0.683774] kernel: PCI: CLS 32 bytes, default 64
+[    0.683878] kernel: Trying to unpack rootfs image as initramfs...
+[    0.878826] kernel: Freeing initrd memory: 82820K
+[    0.878913] kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.878993] kernel: software IO TLB: mapped [mem 0xbbee0000-0xbfee0000] (64MB)
+[    0.879189] kernel: check: Scanning for low memory corruption every 60 seconds
+[    0.879657] kernel: Initialise system trusted keyrings
+[    0.879726] kernel: Key type blacklist registered
+[    0.879824] kernel: workingset: timestamp_bits=36 max_order=21 bucket_order=0
+[    0.880838] kernel: zbud: loaded
+[    0.881122] kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.881339] kernel: fuse: init (API version 7.31)
+[    0.881409] kernel: *** VALIDATE fuse ***
+[    0.881460] kernel: *** VALIDATE fuse ***
+[    0.881595] kernel: Platform Keyring initialized
+[    0.884276] kernel: Key type asymmetric registered
+[    0.884333] kernel: Asymmetric key parser 'x509' registered
+[    0.884403] kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+[    0.884530] kernel: io scheduler mq-deadline registered
+[    0.885130] kernel: pcieport 0000:00:15.0: PME: Signaling with IRQ 24
+[    0.885272] kernel: pcieport 0000:00:15.0: pciehp: Slot #160 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.886116] kernel: pcieport 0000:00:15.1: PME: Signaling with IRQ 25
+[    0.886270] kernel: pcieport 0000:00:15.1: pciehp: Slot #161 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.887115] kernel: pcieport 0000:00:15.2: PME: Signaling with IRQ 26
+[    0.887412] kernel: pcieport 0000:00:15.2: pciehp: Slot #162 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.888312] kernel: pcieport 0000:00:15.3: PME: Signaling with IRQ 27
+[    0.888450] kernel: pcieport 0000:00:15.3: pciehp: Slot #163 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.889301] kernel: pcieport 0000:00:15.4: PME: Signaling with IRQ 28
+[    0.889440] kernel: pcieport 0000:00:15.4: pciehp: Slot #164 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.890288] kernel: pcieport 0000:00:15.5: PME: Signaling with IRQ 29
+[    0.890427] kernel: pcieport 0000:00:15.5: pciehp: Slot #165 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.891258] kernel: pcieport 0000:00:15.6: PME: Signaling with IRQ 30
+[    0.891399] kernel: pcieport 0000:00:15.6: pciehp: Slot #166 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.892267] kernel: pcieport 0000:00:15.7: PME: Signaling with IRQ 31
+[    0.892406] kernel: pcieport 0000:00:15.7: pciehp: Slot #167 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.893243] kernel: pcieport 0000:00:16.0: PME: Signaling with IRQ 32
+[    0.893380] kernel: pcieport 0000:00:16.0: pciehp: Slot #192 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.894228] kernel: pcieport 0000:00:16.1: PME: Signaling with IRQ 33
+[    0.894368] kernel: pcieport 0000:00:16.1: pciehp: Slot #193 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.895200] kernel: pcieport 0000:00:16.2: PME: Signaling with IRQ 34
+[    0.895339] kernel: pcieport 0000:00:16.2: pciehp: Slot #194 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.896186] kernel: pcieport 0000:00:16.3: PME: Signaling with IRQ 35
+[    0.896325] kernel: pcieport 0000:00:16.3: pciehp: Slot #195 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.897165] kernel: pcieport 0000:00:16.4: PME: Signaling with IRQ 36
+[    0.897302] kernel: pcieport 0000:00:16.4: pciehp: Slot #196 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.898166] kernel: pcieport 0000:00:16.5: PME: Signaling with IRQ 37
+[    0.898304] kernel: pcieport 0000:00:16.5: pciehp: Slot #197 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.899144] kernel: pcieport 0000:00:16.6: PME: Signaling with IRQ 38
+[    0.899284] kernel: pcieport 0000:00:16.6: pciehp: Slot #198 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.900125] kernel: pcieport 0000:00:16.7: PME: Signaling with IRQ 39
+[    0.900261] kernel: pcieport 0000:00:16.7: pciehp: Slot #199 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.901105] kernel: pcieport 0000:00:17.0: PME: Signaling with IRQ 40
+[    0.901242] kernel: pcieport 0000:00:17.0: pciehp: Slot #224 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.902083] kernel: pcieport 0000:00:17.1: PME: Signaling with IRQ 41
+[    0.902232] kernel: pcieport 0000:00:17.1: pciehp: Slot #225 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.903066] kernel: pcieport 0000:00:17.2: PME: Signaling with IRQ 42
+[    0.903203] kernel: pcieport 0000:00:17.2: pciehp: Slot #226 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.904036] kernel: pcieport 0000:00:17.3: PME: Signaling with IRQ 43
+[    0.904172] kernel: pcieport 0000:00:17.3: pciehp: Slot #227 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.905011] kernel: pcieport 0000:00:17.4: PME: Signaling with IRQ 44
+[    0.905148] kernel: pcieport 0000:00:17.4: pciehp: Slot #228 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.905983] kernel: pcieport 0000:00:17.5: PME: Signaling with IRQ 45
+[    0.906131] kernel: pcieport 0000:00:17.5: pciehp: Slot #229 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.906981] kernel: pcieport 0000:00:17.6: PME: Signaling with IRQ 46
+[    0.907121] kernel: pcieport 0000:00:17.6: pciehp: Slot #230 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.907967] kernel: pcieport 0000:00:17.7: PME: Signaling with IRQ 47
+[    0.908104] kernel: pcieport 0000:00:17.7: pciehp: Slot #231 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.908933] kernel: pcieport 0000:00:18.0: PME: Signaling with IRQ 48
+[    0.909075] kernel: pcieport 0000:00:18.0: pciehp: Slot #256 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.909907] kernel: pcieport 0000:00:18.1: PME: Signaling with IRQ 49
+[    0.910045] kernel: pcieport 0000:00:18.1: pciehp: Slot #257 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.910891] kernel: pcieport 0000:00:18.2: PME: Signaling with IRQ 50
+[    0.911028] kernel: pcieport 0000:00:18.2: pciehp: Slot #258 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.911863] kernel: pcieport 0000:00:18.3: PME: Signaling with IRQ 51
+[    0.912002] kernel: pcieport 0000:00:18.3: pciehp: Slot #259 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.912836] kernel: pcieport 0000:00:18.4: PME: Signaling with IRQ 52
+[    0.912975] kernel: pcieport 0000:00:18.4: pciehp: Slot #260 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.913809] kernel: pcieport 0000:00:18.5: PME: Signaling with IRQ 53
+[    0.913946] kernel: pcieport 0000:00:18.5: pciehp: Slot #261 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.914795] kernel: pcieport 0000:00:18.6: PME: Signaling with IRQ 54
+[    0.914935] kernel: pcieport 0000:00:18.6: pciehp: Slot #262 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.915779] kernel: pcieport 0000:00:18.7: PME: Signaling with IRQ 55
+[    0.915920] kernel: pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[    0.916431] kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.916559] kernel: intel_idle: Please enable MWAIT in BIOS SETUP
+[    0.916822] kernel: ACPI: AC Adapter [ACAD] (on-line)
+[    0.916954] kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.917072] kernel: ACPI: Power Button [PWRF]
+[    0.917459] kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    0.919085] kernel: Linux agpgart interface v0.103
+[    0.919260] kernel: agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+[    0.919638] kernel: agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+[    1.046139] kernel: loop: module loaded
+[    1.046336] kernel: ata_piix 0000:00:07.1: version 2.13
+[    1.046672] kernel: scsi host0: ata_piix
+[    1.046805] kernel: scsi host1: ata_piix
+[    1.046876] kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x1060 irq 14
+[    1.046959] kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x1068 irq 15
+[    1.047164] kernel: tun: Universal TUN/TAP device driver, 1.6
+[    1.047443] kernel: PPP generic driver version 2.4.2
+[    1.047716] kernel: VFIO - User Level meta-driver version: 0.3
+[    1.047826] kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.047907] kernel: ehci-pci: EHCI PCI platform driver
+[    1.047977] kernel: ehci-platform: EHCI generic platform driver
+[    1.048087] kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.048164] kernel: ohci-pci: OHCI PCI platform driver
+[    1.048233] kernel: ohci-platform: OHCI generic platform driver
+[    1.048319] kernel: uhci_hcd: USB Universal Host Controller Interface driver
+[    1.048444] kernel: i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+[    1.049185] kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+[    1.049267] kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+[    1.049421] kernel: mousedev: PS/2 mouse device common for all mice
+[    1.049957] kernel: rtc_cmos 00:01: registered as rtc0
+[    1.050076] kernel: rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+[    1.050233] kernel: i2c /dev entries driver
+[    1.050370] kernel: device-mapper: uevent: version 1.0.3
+[    1.050526] kernel: device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+[    1.050654] kernel: platform eisa.0: Probing EISA bus 0
+[    1.050739] kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+[    1.050858] kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+[    1.050939] kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+[    1.051091] kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+[    1.051210] kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[    1.051354] kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+[    1.051594] kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+[    1.051673] kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+[    1.051753] kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+[    1.051832] kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+[    1.051911] kernel: platform eisa.0: EISA: Detected 0 cards
+[    1.051976] kernel: intel_pstate: CPU model not supported
+[    1.052094] kernel: ledtrig-cpu: registered to indicate activity on CPUs
+[    1.052267] kernel: drop_monitor: Initializing network drop monitor service
+[    1.052469] kernel: NET: Registered protocol family 10
+[    1.057135] kernel: Segment Routing with IPv6
+[    1.057210] kernel: NET: Registered protocol family 17
+[    1.057326] kernel: Key type dns_resolver registered
+[    1.057522] kernel: RAS: Correctable Errors collector initialized.
+[    1.057598] kernel: IPI shorthand broadcast: enabled
+[    1.057661] kernel: sched_clock: Marking stable (1048647563, 8843019)->(1063220905, -5730323)
+[    1.057828] kernel: registered taskstats version 1
+[    1.057894] kernel: Loading compiled-in X.509 certificates
+[    1.058561] kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 14c1fcd338762a2eeacd3b20a829b037b9235452'
+[    1.059187] kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+[    1.059808] kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+[    1.059930] kernel: blacklist: Loading compiled-in revocation X.509 certificates
+[    1.060032] kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[    1.060199] kernel: zswap: loaded using pool lzo/zbud
+[    1.060351] kernel: Key type ._fscrypt registered
+[    1.060407] kernel: Key type .fscrypt registered
+[    1.064591] kernel: Key type big_key registered
+[    1.066639] kernel: Key type encrypted registered
+[    1.066708] kernel: AppArmor: AppArmor sha1 policy hashing enabled
+[    1.066715] kernel: audit: type=1400 audit(1673007130.951:5): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[    1.066783] kernel: ima: No TPM chip found, activating TPM-bypass!
+[    1.066997] kernel: ima: Allocated hash algorithm: sha1
+[    1.067064] kernel: ima: No architecture policies found
+[    1.067130] kernel: evm: Initialising EVM extended attributes:
+[    1.067196] kernel: evm: security.selinux
+[    1.067245] kernel: evm: security.SMACK64
+[    1.067294] kernel: evm: security.SMACK64EXEC
+[    1.067346] kernel: evm: security.SMACK64TRANSMUTE
+[    1.067402] kernel: evm: security.SMACK64MMAP
+[    1.067453] kernel: evm: security.apparmor
+[    1.067503] kernel: evm: security.ima
+[    1.067548] kernel: evm: security.capability
+[    1.067727] kernel: evm: HMAC attrs: 0x1
+[    1.068659] kernel: PM:   Magic number: 7:857:227
+[    1.068786] kernel: acpi device:74: hash matches
+[    1.068858] kernel: acpi PNP0200:00: hash matches
+[    1.069001] kernel: rtc_cmos 00:01: setting system clock to 2023-01-06T12:12:11 UTC (1673007131)
+[    1.228822] kernel: Freeing unused decrypted memory: 2040K
+[    1.229514] kernel: Freeing unused kernel image memory: 2756K
+[    1.229582] kernel: Write protecting the kernel read-only data: 26624k
+[    1.230232] kernel: Freeing unused kernel image memory: 2008K
+[    1.230490] kernel: Freeing unused kernel image memory: 744K
+[    1.238018] kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    1.238101] kernel: Run /init as init process
+[    1.366395] kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+[    1.366839] kernel: VMware vmxnet3 virtual NIC driver - version 1.4.17.0-k-NAPI
+[    1.366942] kernel: vmxnet3 0000:03:00.0: # of Tx queues : 2, # of Rx queues : 2
+[    1.368168] kernel: Fusion MPT base driver 3.04.20
+[    1.368232] kernel: Copyright (c) 1999-2008 LSI Corporation
+[    1.368496] kernel: vmxnet3 0000:03:00.0 eth0: NIC Link is Up 10000 Mbps
+[    1.372006] kernel: ahci 0000:02:01.0: version 3.0
+[    1.373429] kernel: ahci 0000:02:01.0: AHCI 0001.0300 32 slots 30 ports 6 Gbps 0x3fffffff impl SATA mode
+[    1.373556] kernel: ahci 0000:02:01.0: flags: 64bit ncq clo only 
+[    1.375749] kernel: Fusion MPT SPI Host driver 3.04.20
+[    1.382266] kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+[    1.382595] kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+[    1.389660] kernel: cryptd: max_cpu_qlen set to 1000
+[    1.390143] kernel: mptbase: ioc0: Initiating bringup
+[    1.390377] kernel: scsi host2: ahci
+[    1.393244] kernel: AVX2 version of gcm_enc/dec engaged.
+[    1.393310] kernel: AES CTR mode by8 optimization enabled
+[    1.399271] kernel: scsi host3: ahci
+[    1.402082] kernel: [drm] DMA map mode: Caching DMA mappings.
+[    1.402453] kernel: [drm] Capabilities:
+[    1.402504] kernel: [drm]   Rect copy.
+[    1.402550] kernel: [drm]   Cursor.
+[    1.402599] kernel: [drm]   Cursor bypass.
+[    1.402648] kernel: [drm]   Cursor bypass 2.
+[    1.402715] kernel: [drm]   8bit emulation.
+[    1.402771] kernel: [drm]   Alpha cursor.
+[    1.402828] kernel: [drm]   Extended Fifo.
+[    1.402888] kernel: [drm]   Multimon.
+[    1.402936] kernel: [drm]   Pitchlock.
+[    1.402993] kernel: [drm]   Irq mask.
+[    1.403039] kernel: [drm]   Display Topology.
+[    1.403091] kernel: [drm]   GMR.
+[    1.403131] kernel: [drm]   Traces.
+[    1.403180] kernel: [drm]   GMR2.
+[    1.403226] kernel: [drm]   Screen Object 2.
+[    1.403283] kernel: [drm]   Command Buffers.
+[    1.403341] kernel: [drm]   Command Buffers 2.
+[    1.403393] kernel: [drm]   Guest Backed Resources.
+[    1.403450] kernel: [drm]   DX Features.
+[    1.403497] kernel: [drm]   HP Command Queue.
+[    1.403549] kernel: [drm] Max GMR ids is 64
+[    1.403599] kernel: [drm] Max number of GMR pages is 65536
+[    1.403660] kernel: [drm] Max dedicated hypervisor surface memory is 0 kiB
+[    1.403736] kernel: [drm] Maximum display memory size is 16384 kiB
+[    1.403804] kernel: [drm] VRAM at 0xe8000000 size is 4096 kiB
+[    1.403869] kernel: [drm] MMIO at 0xfe000000 size is 256 kiB
+[    1.404102] kernel: scsi host4: ahci
+[    1.404274] kernel: scsi host5: ahci
+[    1.404439] kernel: scsi host6: ahci
+[    1.404595] kernel: scsi host7: ahci
+[    1.404746] kernel: scsi host8: ahci
+[    1.404897] kernel: scsi host9: ahci
+[    1.405035] kernel: scsi host10: ahci
+[    1.405186] kernel: scsi host11: ahci
+[    1.405352] kernel: scsi host12: ahci
+[    1.405491] kernel: scsi host13: ahci
+[    1.405642] kernel: scsi host14: ahci
+[    1.405793] kernel: scsi host15: ahci
+[    1.405922] kernel: scsi host16: ahci
+[    1.406108] kernel: scsi host17: ahci
+[    1.406275] kernel: scsi host18: ahci
+[    1.406445] kernel: scsi host19: ahci
+[    1.406613] kernel: scsi host20: ahci
+[    1.406742] kernel: scsi host21: ahci
+[    1.406899] kernel: scsi host22: ahci
+[    1.407051] kernel: scsi host23: ahci
+[    1.407230] kernel: scsi host24: ahci
+[    1.407374] kernel: scsi host25: ahci
+[    1.407516] kernel: scsi host26: ahci
+[    1.407665] kernel: scsi host27: ahci
+[    1.407829] kernel: scsi host28: ahci
+[    1.407984] kernel: scsi host29: ahci
+[    1.408129] kernel: scsi host30: ahci
+[    1.408273] kernel: scsi host31: ahci
+[    1.408352] kernel: ata3: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff100 irq 59
+[    1.408443] kernel: ata4: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff180 irq 59
+[    1.408534] kernel: ata5: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff200 irq 59
+[    1.408624] kernel: ata6: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff280 irq 59
+[    1.408715] kernel: ata7: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff300 irq 59
+[    1.408805] kernel: ata8: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff380 irq 59
+[    1.408900] kernel: ata9: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff400 irq 59
+[    1.408995] kernel: ata10: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff480 irq 59
+[    1.409091] kernel: ata11: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff500 irq 59
+[    1.409186] kernel: ata12: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff580 irq 59
+[    1.409282] kernel: ata13: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff600 irq 59
+[    1.409377] kernel: ata14: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff680 irq 59
+[    1.409473] kernel: ata15: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff700 irq 59
+[    1.409566] kernel: ata16: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff780 irq 59
+[    1.409659] kernel: ata17: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff800 irq 59
+[    1.409750] kernel: ata18: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff880 irq 59
+[    1.409842] kernel: ata19: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff900 irq 59
+[    1.409932] kernel: ata20: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ff980 irq 59
+[    1.410024] kernel: ata21: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffa00 irq 59
+[    1.410126] kernel: ata22: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffa80 irq 59
+[    1.410223] kernel: ata23: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffb00 irq 59
+[    1.410319] kernel: ata24: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffb80 irq 59
+[    1.410415] kernel: ata25: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffc00 irq 59
+[    1.410510] kernel: ata26: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffc80 irq 59
+[    1.410609] kernel: ata27: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffd00 irq 59
+[    1.410705] kernel: ata28: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffd80 irq 59
+[    1.410800] kernel: ata29: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffe00 irq 59
+[    1.410896] kernel: ata30: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5ffe80 irq 59
+[    1.411003] kernel: ata31: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5fff00 irq 59
+[    1.411099] kernel: ata32: SATA max UDMA/133 abar m4096@0xfd5ff000 port 0xfd5fff80 irq 59
+[    1.411509] kernel: [TTM] Zone  kernel: Available graphics memory: 4074342 KiB
+[    1.411590] kernel: [TTM] Zone   dma32: Available graphics memory: 2097152 KiB
+[    1.411668] kernel: [TTM] Initializing pool allocator
+[    1.411733] kernel: [TTM] Initializing DMA pool allocator
+[    1.411863] kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[    1.411943] kernel: [drm] No driver support for vblank timestamp query.
+[    1.412491] kernel: [drm] Screen Target Display device initialized
+[    1.412785] kernel: [drm] width 640
+[    1.412837] kernel: [drm] height 480
+[    1.412886] kernel: [drm] bpp 32
+[    1.413819] kernel: [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+[    1.419436] kernel: [drm] Using command buffers with DMA pool.
+[    1.420079] kernel: [drm] DX: no.
+[    1.420131] kernel: [drm] Atomic: yes.
+[    1.420177] kernel: [drm] SM4_1: no.
+[    1.427096] kernel: vmxnet3 0000:03:00.0 ens160: renamed from eth0
+[    1.427921] kernel: fbcon: svgadrmfb (fb0) is primary device
+[    1.429907] kernel: Console: switching to colour frame buffer device 100x37
+[    1.432980] kernel: [drm] Initialized vmwgfx 2.15.0 20180704 for 0000:00:0f.0 on minor 0
+[    1.498314] kernel: ioc0: LSI53C1030 B0: Capabilities={Initiator}
+[    1.724396] kernel: ata4: SATA link down (SStatus 0 SControl 300)
+[    1.724449] kernel: ata5: SATA link down (SStatus 0 SControl 300)
+[    1.724507] kernel: ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    1.724592] kernel: ata3.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+[    1.724697] kernel: ata3.00: configured for UDMA/33
+[    1.724941] kernel: scsi 2:0:0:0: CD-ROM            NECVMWar VMware SATA CD00 1.00 PQ: 0 ANSI: 5
+[    1.728362] kernel: ata6: SATA link down (SStatus 0 SControl 300)
+[    1.728400] kernel: ata7: SATA link down (SStatus 0 SControl 300)
+[    1.732364] kernel: ata9: SATA link down (SStatus 0 SControl 300)
+[    1.733026] kernel: ata8: SATA link down (SStatus 0 SControl 300)
+[    1.736458] kernel: ata10: SATA link down (SStatus 0 SControl 300)
+[    1.737086] kernel: ata12: SATA link down (SStatus 0 SControl 300)
+[    1.737689] kernel: ata11: SATA link down (SStatus 0 SControl 300)
+[    1.738886] kernel: scsi host32: ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+[    1.740356] kernel: ata13: SATA link down (SStatus 0 SControl 300)
+[    1.744667] kernel: ata15: SATA link down (SStatus 0 SControl 300)
+[    1.745210] kernel: ata16: SATA link down (SStatus 0 SControl 300)
+[    1.745751] kernel: ata14: SATA link down (SStatus 0 SControl 300)
+[    1.748876] kernel: ata30: SATA link down (SStatus 0 SControl 300)
+[    1.749379] kernel: ata27: SATA link down (SStatus 0 SControl 300)
+[    1.749875] kernel: ata21: SATA link down (SStatus 0 SControl 300)
+[    1.750407] kernel: ata18: SATA link down (SStatus 0 SControl 300)
+[    1.750461] kernel: sr 2:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+[    1.750869] kernel: ata24: SATA link down (SStatus 0 SControl 300)
+[    1.751329] kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+[    1.751813] kernel: ata31: SATA link down (SStatus 0 SControl 300)
+[    1.752995] kernel: ata26: SATA link down (SStatus 0 SControl 300)
+[    1.753515] kernel: ata17: SATA link down (SStatus 0 SControl 300)
+[    1.753990] kernel: ata23: SATA link down (SStatus 0 SControl 300)
+[    1.754465] kernel: ata28: SATA link down (SStatus 0 SControl 300)
+[    1.754923] kernel: ata29: SATA link down (SStatus 0 SControl 300)
+[    1.755379] kernel: ata25: SATA link down (SStatus 0 SControl 300)
+[    1.755824] kernel: ata32: SATA link down (SStatus 0 SControl 300)
+[    1.756251] kernel: ata20: SATA link down (SStatus 0 SControl 300)
+[    1.756660] kernel: ata22: SATA link down (SStatus 0 SControl 300)
+[    1.757047] kernel: ata19: SATA link down (SStatus 0 SControl 300)
+[    1.786152] kernel: sr 2:0:0:0: Attached scsi CD-ROM sr0
+[    1.786200] kernel: sr 2:0:0:0: Attached scsi generic sg0 type 5
+[    1.906341] kernel: tsc: Refined TSC clocksource calibration: 2394.375 MHz
+[    1.906746] kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x228375ba3e9, max_idle_ns: 440795226324 ns
+[    1.907616] kernel: clocksource: Switched to clocksource tsc
+[    1.910308] kernel: scsi 32:0:0:0: Direct-Access     VMware   Virtual disk     2.0  PQ: 0 ANSI: 6
+[    1.922246] kernel: scsi target32:0:0: Beginning Domain Validation
+[    1.922949] kernel: scsi target32:0:0: Domain Validation skipping write tests
+[    1.923401] kernel: scsi target32:0:0: Ending Domain Validation
+[    1.923856] kernel: scsi target32:0:0: FAST-80 WIDE SCSI 160.0 MB/s DT (12.5 ns, offset 127)
+[    1.925283] kernel: sd 32:0:0:0: [sda] 209715200 512-byte logical blocks: (107 GB/100 GiB)
+[    1.925755] kernel: sd 32:0:0:0: [sda] Write Protect is off
+[    1.926253] kernel: sd 32:0:0:0: [sda] Mode Sense: 31 00 00 00
+[    1.926276] kernel: sd 32:0:0:0: [sda] Cache data unavailable
+[    1.926740] kernel: sd 32:0:0:0: [sda] Assuming drive cache: write through
+[    1.927254] kernel: sd 32:0:0:0: Attached scsi generic sg1 type 0
+[    1.945101] kernel:  sda: sda1 sda2 sda3
+[    1.958340] kernel: sd 32:0:0:0: [sda] Attached SCSI disk
+[    2.182120] kernel: raid6: avx512x4 gen() 33524 MB/s
+[    2.230121] kernel: raid6: avx512x4 xor() 16260 MB/s
+[    2.278121] kernel: raid6: avx512x2 gen() 31983 MB/s
+[    2.326121] kernel: raid6: avx512x2 xor() 20117 MB/s
+[    2.374122] kernel: raid6: avx512x1 gen() 28364 MB/s
+[    2.422122] kernel: raid6: avx512x1 xor() 16021 MB/s
+[    2.470120] kernel: raid6: avx2x4   gen() 28231 MB/s
+[    2.518119] kernel: raid6: avx2x4   xor() 16824 MB/s
+[    2.566122] kernel: raid6: avx2x2   gen() 25662 MB/s
+[    2.614120] kernel: raid6: avx2x2   xor() 15720 MB/s
+[    2.662122] kernel: raid6: avx2x1   gen() 18958 MB/s
+[    2.710122] kernel: raid6: avx2x1   xor() 14815 MB/s
+[    2.758125] kernel: raid6: sse2x4   gen() 10264 MB/s
+[    2.806124] kernel: raid6: sse2x4   xor()  6788 MB/s
+[    2.854129] kernel: raid6: sse2x2   gen()  9901 MB/s
+[    2.902121] kernel: raid6: sse2x2   xor()  6206 MB/s
+[    2.950120] kernel: raid6: sse2x1   gen()  8777 MB/s
+[    2.998122] kernel: raid6: sse2x1   xor()  5070 MB/s
+[    2.998632] kernel: raid6: using algorithm avx512x4 gen() 33524 MB/s
+[    2.999137] kernel: raid6: .... xor() 16260 MB/s, rmw enabled
+[    2.999637] kernel: raid6: using avx512x2 recovery algorithm
+[    3.001015] kernel: xor: automatically using best checksumming function   avx       
+[    3.002240] kernel: async_tx: api initialized (async)
+[    3.117022] kernel: Btrfs loaded, crc32c=crc32c-intel
+[    3.300343] kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+[    3.561446] systemd[1]: Inserted module 'autofs4'
+[    3.582618] systemd[1]: systemd 245.4-4ubuntu3.17 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+[    3.584370] systemd[1]: Detected virtualization vmware.
+[    3.584982] systemd[1]: Detected architecture x86-64.
+[    3.612934] systemd[1]: Set hostname to <lm-ayismgit01.aselsan.com.tr>.
+[    3.975718] systemd[1]: Created slice system-modprobe.slice.
+[    3.977441] systemd[1]: Created slice User and Session Slice.
+[    3.978966] systemd[1]: Started ntp-systemd-netif.path.
+[    3.980521] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    3.982334] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    3.984881] systemd[1]: Reached target User and Group Name Lookups.
+[    3.986633] systemd[1]: Reached target Slices.
+[    3.988392] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    3.990186] systemd[1]: Listening on LVM2 poll daemon socket.
+[    3.991963] systemd[1]: Listening on multipathd control socket.
+[    3.993745] systemd[1]: Listening on Syslog Socket.
+[    3.995468] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[    3.997256] systemd[1]: Listening on Journal Audit Socket.
+[    3.999046] systemd[1]: Listening on Journal Socket (/dev/log).
+[    4.000811] systemd[1]: Listening on Journal Socket.
+[    4.002559] systemd[1]: Listening on Network Service Netlink Socket.
+[    4.004321] systemd[1]: Listening on udev Control Socket.
+[    4.006076] systemd[1]: Listening on udev Kernel Socket.
+[    4.008535] systemd[1]: Mounting Huge Pages File System...
+[    4.011437] systemd[1]: Mounting POSIX Message Queue File System...
+[    4.013880] systemd[1]: Mounting Kernel Debug File System...
+[    4.016250] systemd[1]: Mounting Kernel Trace File System...
+[    4.018957] systemd[1]: Starting Journal Service...
+[    4.021327] systemd[1]: Starting Set the console keyboard layout...
+[    4.023694] systemd[1]: Starting Create list of static device nodes for the current kernel...
+[    4.026172] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[    4.030066] systemd[1]: Condition check resulted in Load Kernel Module drm being skipped.
+[    4.034468] systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+[    4.037301] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[    4.040237] systemd[1]: Starting Load Kernel Modules...
+[    4.044670] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    4.047136] systemd[1]: Starting udev Coldplug all Devices...
+[    4.053571] systemd[1]: Starting Uncomplicated firewall...
+[    4.056494] systemd[1]: Mounted Huge Pages File System.
+[    4.059450] systemd[1]: Mounted POSIX Message Queue File System.
+[    4.061308] systemd[1]: Mounted Kernel Debug File System.
+[    4.063359] systemd[1]: Mounted Kernel Trace File System.
+[    4.066595] systemd[1]: Finished Create list of static device nodes for the current kernel.
+[    4.068201] kernel: IPMI message handler: version 39.2
+[    4.068781] kernel: EXT4-fs (dm-0): re-mounted. Opts: (null)
+[    4.073158] systemd[1]: Finished Remount Root and Kernel File Systems.
+[    4.074143] kernel: audit: type=1130 audit(1673007134.498:6): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.078513] kernel: ipmi device interface
+[    4.079486] kernel: audit: type=1130 audit(1673007134.506:7): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.090602] systemd[1]: Finished Load Kernel Modules.
+[    4.092480] kernel: audit: type=1130 audit(1673007134.518:8): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-modules-load comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.096219] systemd[1]: Activating swap /swap.img...
+[    4.098853] systemd[1]: Mounting FUSE Control File System...
+[    4.104285] systemd[1]: Mounting Kernel Configuration File System...
+[    4.107836] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[    4.109407] systemd[1]: Starting Apply Kernel Variables...
+[    4.112003] systemd[1]: Starting Create System Users...
+[    4.117764] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[    4.120719] kernel: audit: type=1130 audit(1673007134.546:9): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=lvm2-monitor comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.123713] systemd[1]: Mounted FUSE Control File System.
+[    4.125126] kernel: bpfilter: Loaded bpfilter_umh pid 581
+[    4.125322] unknown: Started bpfilter
+[    4.128275] systemd[1]: Mounted Kernel Configuration File System.
+[    4.132340] kernel: audit: type=1325 audit(1673007134.558:10): table=filter family=2 entries=0
+[    4.138313] systemd[1]: Finished Create System Users.
+[    4.139941] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    4.149467] systemd[1]: Finished Apply Kernel Variables.
+[    4.161968] systemd[1]: Finished Create Static Device Nodes in /dev.
+[    4.163653] systemd[1]: Starting udev Kernel Device Manager...
+[    4.241273] systemd[1]: Finished udev Coldplug all Devices.
+[    4.242943] systemd[1]: Starting udev Wait for Complete Device Initialization...
+[    4.246923] systemd[1]: Finished Set the console keyboard layout.
+[    4.271509] systemd[1]: Started Journal Service.
+[    4.278152] kernel: Adding 4194300k swap on /swap.img.  Priority:-2 extents:5 across:4685820k SSFS
+[    4.743423] kernel: vmw_vmci 0000:00:07.7: Found VMCI PCI device at 0x11080, irq 16
+[    4.743484] kernel: vmw_vmci 0000:00:07.7: Using capabilities 0xc
+[    4.749835] kernel: Guest personality initialized and is active
+[    4.749865] kernel: VMCI host device registered (name=vmci, major=10, minor=59)
+[    4.749866] kernel: Initialized host personality
+[    4.912380] kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+[    5.246622] kernel: Adding 4194300k swap on /dev/mapper/ubuntu-swap.  Priority:-3 extents:1 across:4194300k SSFS
+[    5.320057] kernel: kauditd_printk_skb: 29 callbacks suppressed
+[    5.320058] kernel: audit: type=1130 audit(1673007135.746:40): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=lvm2-pvscan@8:3 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.323478] kernel: audit: type=1130 audit(1673007135.750:41): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-udev-settle comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.332406] kernel: alua: device handler registered
+[    5.333684] kernel: emc: device handler registered
+[    5.335374] kernel: rdac: device handler registered
+[    5.376916] kernel: audit: type=1130 audit(1673007135.802:42): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=multipathd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.389302] kernel: EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+[    5.394341] kernel: EXT4-fs (dm-1): mounted filesystem with ordered data mode. Opts: (null)
+[    5.395876] kernel: EXT4-fs (dm-3): mounted filesystem with ordered data mode. Opts: (null)
+[    5.417260] kernel: EXT4-fs (dm-5): mounted filesystem with ordered data mode. Opts: (null)
+[    5.427136] kernel: audit: type=1130 audit(1673007135.854:43): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-random-seed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.428104] kernel: EXT4-fs (dm-4): mounted filesystem with ordered data mode. Opts: (null)
+[    5.432373] kernel: EXT4-fs (dm-6): mounted filesystem with ordered data mode. Opts: (null)
+[    5.485888] kernel: audit: type=1130 audit(1673007135.910:44): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=console-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.486891] kernel: audit: type=1130 audit(1673007135.914:45): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=finalrd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.487840] kernel: audit: type=1130 audit(1673007135.914:46): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netfilter-persistent comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.492139] kernel: audit: type=1130 audit(1673007135.918:47): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=plymouth-read-write comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.492146] kernel: audit: type=1131 audit(1673007135.918:48): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=plymouth-read-write comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.531811] kernel: audit: type=1400 audit(1673007135.958:49): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=971 comm="apparmor_parser"
+[    5.717836] kernel: NET: Registered protocol family 40
+[    6.693294] kernel: vmxnet3 0000:03:00.0 ens160: intr type 3, mode 0, 3 vectors allocated
+[    6.694255] kernel: vmxnet3 0000:03:00.0 ens160: NIC Link is Up 10000 Mbps
+[    7.694097] kernel: [UFW BLOCK] IN=ens160 OUT= MAC=00:50:56:9c:1a:d6:55:55:55:55:55:55:08:00 SRC=0.0.0.0 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+[   12.317028] kernel: rfkill: input handler disabled

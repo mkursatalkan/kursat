@@ -1,0 +1,1080 @@
+Jan  8 00:01:01 lm-ayismgit01 CRON[5253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:01:01 lm-ayismgit01 CRON[5253]: pam_unix(cron:session): session closed for user root
+Jan  8 00:05:01 lm-ayismgit01 CRON[5259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:05:01 lm-ayismgit01 CRON[5259]: pam_unix(cron:session): session closed for user root
+Jan  8 00:15:01 lm-ayismgit01 CRON[5267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:15:01 lm-ayismgit01 CRON[5267]: pam_unix(cron:session): session closed for user root
+Jan  8 00:17:01 lm-ayismgit01 CRON[5270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:17:01 lm-ayismgit01 CRON[5270]: pam_unix(cron:session): session closed for user root
+Jan  8 00:25:01 lm-ayismgit01 CRON[5275]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:25:01 lm-ayismgit01 CRON[5275]: pam_unix(cron:session): session closed for user root
+Jan  8 00:35:01 lm-ayismgit01 CRON[5283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:35:01 lm-ayismgit01 CRON[5283]: pam_unix(cron:session): session closed for user root
+Jan  8 00:45:01 lm-ayismgit01 CRON[5289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:45:01 lm-ayismgit01 CRON[5289]: pam_unix(cron:session): session closed for user root
+Jan  8 00:55:01 lm-ayismgit01 CRON[5297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 00:55:01 lm-ayismgit01 CRON[5297]: pam_unix(cron:session): session closed for user root
+Jan  8 01:01:01 lm-ayismgit01 CRON[5301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:01:01 lm-ayismgit01 CRON[5301]: pam_unix(cron:session): session closed for user root
+Jan  8 01:05:01 lm-ayismgit01 CRON[5307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:05:01 lm-ayismgit01 CRON[5307]: pam_unix(cron:session): session closed for user root
+Jan  8 01:15:01 lm-ayismgit01 CRON[5313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:15:01 lm-ayismgit01 CRON[5313]: pam_unix(cron:session): session closed for user root
+Jan  8 01:17:01 lm-ayismgit01 CRON[5317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:17:01 lm-ayismgit01 CRON[5317]: pam_unix(cron:session): session closed for user root
+Jan  8 01:25:01 lm-ayismgit01 CRON[5322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:25:01 lm-ayismgit01 CRON[5322]: pam_unix(cron:session): session closed for user root
+Jan  8 01:35:01 lm-ayismgit01 CRON[5330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:35:01 lm-ayismgit01 CRON[5330]: pam_unix(cron:session): session closed for user root
+Jan  8 01:45:01 lm-ayismgit01 CRON[5336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:45:01 lm-ayismgit01 CRON[5336]: pam_unix(cron:session): session closed for user root
+Jan  8 01:55:01 lm-ayismgit01 CRON[5343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 01:55:01 lm-ayismgit01 CRON[5343]: pam_unix(cron:session): session closed for user root
+Jan  8 02:01:01 lm-ayismgit01 CRON[5348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:01:01 lm-ayismgit01 CRON[5348]: pam_unix(cron:session): session closed for user root
+Jan  8 02:05:01 lm-ayismgit01 CRON[5354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:05:01 lm-ayismgit01 CRON[5354]: pam_unix(cron:session): session closed for user root
+Jan  8 02:15:01 lm-ayismgit01 CRON[5359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:15:01 lm-ayismgit01 CRON[5359]: pam_unix(cron:session): session closed for user root
+Jan  8 02:17:01 lm-ayismgit01 CRON[5364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:17:01 lm-ayismgit01 CRON[5364]: pam_unix(cron:session): session closed for user root
+Jan  8 02:25:01 lm-ayismgit01 CRON[5369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:25:01 lm-ayismgit01 CRON[5369]: pam_unix(cron:session): session closed for user root
+Jan  8 02:35:01 lm-ayismgit01 CRON[5375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:35:01 lm-ayismgit01 CRON[5375]: pam_unix(cron:session): session closed for user root
+Jan  8 02:45:01 lm-ayismgit01 CRON[5381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:45:01 lm-ayismgit01 CRON[5381]: pam_unix(cron:session): session closed for user root
+Jan  8 02:55:01 lm-ayismgit01 CRON[5388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 02:55:01 lm-ayismgit01 CRON[5388]: pam_unix(cron:session): session closed for user root
+Jan  8 03:01:01 lm-ayismgit01 CRON[5392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:01:01 lm-ayismgit01 CRON[5392]: pam_unix(cron:session): session closed for user root
+Jan  8 03:05:01 lm-ayismgit01 CRON[5397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:05:01 lm-ayismgit01 CRON[5397]: pam_unix(cron:session): session closed for user root
+Jan  8 03:10:01 lm-ayismgit01 CRON[5401]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:10:01 lm-ayismgit01 CRON[5401]: pam_unix(cron:session): session closed for user root
+Jan  8 03:15:01 lm-ayismgit01 CRON[5423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:15:01 lm-ayismgit01 CRON[5423]: pam_unix(cron:session): session closed for user root
+Jan  8 03:17:01 lm-ayismgit01 CRON[5428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:17:01 lm-ayismgit01 CRON[5428]: pam_unix(cron:session): session closed for user root
+Jan  8 03:25:01 lm-ayismgit01 CRON[5434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:25:01 lm-ayismgit01 CRON[5434]: pam_unix(cron:session): session closed for user root
+Jan  8 03:30:01 lm-ayismgit01 CRON[5438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:30:01 lm-ayismgit01 CRON[5438]: pam_unix(cron:session): session closed for user root
+Jan  8 03:35:01 lm-ayismgit01 CRON[5443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:35:01 lm-ayismgit01 CRON[5443]: pam_unix(cron:session): session closed for user root
+Jan  8 03:45:01 lm-ayismgit01 CRON[5451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:45:01 lm-ayismgit01 CRON[5451]: pam_unix(cron:session): session closed for user root
+Jan  8 03:55:01 lm-ayismgit01 CRON[5458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 03:55:01 lm-ayismgit01 CRON[5458]: pam_unix(cron:session): session closed for user root
+Jan  8 04:01:01 lm-ayismgit01 CRON[5463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:01:01 lm-ayismgit01 CRON[5463]: pam_unix(cron:session): session closed for user root
+Jan  8 04:05:01 lm-ayismgit01 CRON[5467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:05:01 lm-ayismgit01 CRON[5467]: pam_unix(cron:session): session closed for user root
+Jan  8 04:15:01 lm-ayismgit01 CRON[5473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:15:01 lm-ayismgit01 CRON[5473]: pam_unix(cron:session): session closed for user root
+Jan  8 04:17:01 lm-ayismgit01 CRON[5476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:17:01 lm-ayismgit01 CRON[5476]: pam_unix(cron:session): session closed for user root
+Jan  8 04:25:01 lm-ayismgit01 CRON[5482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:25:01 lm-ayismgit01 CRON[5482]: pam_unix(cron:session): session closed for user root
+Jan  8 04:35:01 lm-ayismgit01 CRON[5488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:35:01 lm-ayismgit01 CRON[5488]: pam_unix(cron:session): session closed for user root
+Jan  8 04:45:01 lm-ayismgit01 CRON[5494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:45:01 lm-ayismgit01 CRON[5494]: pam_unix(cron:session): session closed for user root
+Jan  8 04:55:01 lm-ayismgit01 CRON[5499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 04:55:01 lm-ayismgit01 CRON[5499]: pam_unix(cron:session): session closed for user root
+Jan  8 05:01:01 lm-ayismgit01 CRON[5503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:01:01 lm-ayismgit01 CRON[5503]: pam_unix(cron:session): session closed for user root
+Jan  8 05:05:01 lm-ayismgit01 CRON[5508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:05:01 lm-ayismgit01 CRON[5508]: pam_unix(cron:session): session closed for user root
+Jan  8 05:15:01 lm-ayismgit01 CRON[5515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:15:01 lm-ayismgit01 CRON[5515]: pam_unix(cron:session): session closed for user root
+Jan  8 05:17:01 lm-ayismgit01 CRON[5518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:17:01 lm-ayismgit01 CRON[5518]: pam_unix(cron:session): session closed for user root
+Jan  8 05:25:01 lm-ayismgit01 CRON[5525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:25:01 lm-ayismgit01 CRON[5525]: pam_unix(cron:session): session closed for user root
+Jan  8 05:35:01 lm-ayismgit01 CRON[5532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:35:01 lm-ayismgit01 CRON[5532]: pam_unix(cron:session): session closed for user root
+Jan  8 05:45:01 lm-ayismgit01 CRON[5568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:45:01 lm-ayismgit01 CRON[5568]: pam_unix(cron:session): session closed for user root
+Jan  8 05:55:01 lm-ayismgit01 CRON[5576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 05:55:01 lm-ayismgit01 CRON[5576]: pam_unix(cron:session): session closed for user root
+Jan  8 06:01:01 lm-ayismgit01 CRON[5581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:01:01 lm-ayismgit01 CRON[5581]: pam_unix(cron:session): session closed for user root
+Jan  8 06:05:01 lm-ayismgit01 CRON[5586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:05:01 lm-ayismgit01 CRON[5586]: pam_unix(cron:session): session closed for user root
+Jan  8 06:15:01 lm-ayismgit01 CRON[5592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:15:01 lm-ayismgit01 CRON[5592]: pam_unix(cron:session): session closed for user root
+Jan  8 06:17:01 lm-ayismgit01 CRON[5597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:17:01 lm-ayismgit01 CRON[5597]: pam_unix(cron:session): session closed for user root
+Jan  8 06:25:01 lm-ayismgit01 CRON[5603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:25:01 lm-ayismgit01 CRON[5602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:25:01 lm-ayismgit01 CRON[5603]: pam_unix(cron:session): session closed for user root
+Jan  8 06:25:01 lm-ayismgit01 CRON[5602]: pam_unix(cron:session): session closed for user root
+Jan  8 06:35:01 lm-ayismgit01 CRON[5700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:35:01 lm-ayismgit01 CRON[5700]: pam_unix(cron:session): session closed for user root
+Jan  8 06:45:01 lm-ayismgit01 CRON[5826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:45:01 lm-ayismgit01 CRON[5826]: pam_unix(cron:session): session closed for user root
+Jan  8 06:47:01 lm-ayismgit01 CRON[5830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:47:01 lm-ayismgit01 CRON[5830]: pam_unix(cron:session): session closed for user root
+Jan  8 06:55:01 lm-ayismgit01 CRON[5841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 06:55:01 lm-ayismgit01 CRON[5841]: pam_unix(cron:session): session closed for user root
+Jan  8 07:01:01 lm-ayismgit01 CRON[5847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:01:01 lm-ayismgit01 CRON[5847]: pam_unix(cron:session): session closed for user root
+Jan  8 07:05:01 lm-ayismgit01 CRON[5853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:05:01 lm-ayismgit01 CRON[5853]: pam_unix(cron:session): session closed for user root
+Jan  8 07:15:01 lm-ayismgit01 CRON[5858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:15:01 lm-ayismgit01 CRON[5858]: pam_unix(cron:session): session closed for user root
+Jan  8 07:17:01 lm-ayismgit01 CRON[5862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:17:01 lm-ayismgit01 CRON[5862]: pam_unix(cron:session): session closed for user root
+Jan  8 07:25:01 lm-ayismgit01 CRON[5867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:25:01 lm-ayismgit01 CRON[5867]: pam_unix(cron:session): session closed for user root
+Jan  8 07:35:01 lm-ayismgit01 CRON[5919]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:35:01 lm-ayismgit01 CRON[5919]: pam_unix(cron:session): session closed for user root
+Jan  8 07:45:01 lm-ayismgit01 CRON[5960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:45:01 lm-ayismgit01 CRON[5960]: pam_unix(cron:session): session closed for user root
+Jan  8 07:55:01 lm-ayismgit01 CRON[5968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 07:55:01 lm-ayismgit01 CRON[5968]: pam_unix(cron:session): session closed for user root
+Jan  8 08:01:01 lm-ayismgit01 CRON[5972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:01:01 lm-ayismgit01 CRON[5972]: pam_unix(cron:session): session closed for user root
+Jan  8 08:05:01 lm-ayismgit01 CRON[5977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:05:01 lm-ayismgit01 CRON[5977]: pam_unix(cron:session): session closed for user root
+Jan  8 08:15:01 lm-ayismgit01 CRON[5983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:15:01 lm-ayismgit01 CRON[5983]: pam_unix(cron:session): session closed for user root
+Jan  8 08:17:01 lm-ayismgit01 CRON[5986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:17:01 lm-ayismgit01 CRON[5986]: pam_unix(cron:session): session closed for user root
+Jan  8 08:25:01 lm-ayismgit01 CRON[5993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:25:01 lm-ayismgit01 CRON[5993]: pam_unix(cron:session): session closed for user root
+Jan  8 08:35:01 lm-ayismgit01 CRON[5999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:35:01 lm-ayismgit01 CRON[5999]: pam_unix(cron:session): session closed for user root
+Jan  8 08:45:01 lm-ayismgit01 CRON[6006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:45:01 lm-ayismgit01 CRON[6006]: pam_unix(cron:session): session closed for user root
+Jan  8 08:55:01 lm-ayismgit01 CRON[6013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 08:55:01 lm-ayismgit01 CRON[6013]: pam_unix(cron:session): session closed for user root
+Jan  8 09:01:01 lm-ayismgit01 CRON[6018]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:01:01 lm-ayismgit01 CRON[6018]: pam_unix(cron:session): session closed for user root
+Jan  8 09:05:01 lm-ayismgit01 CRON[6024]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:05:01 lm-ayismgit01 CRON[6024]: pam_unix(cron:session): session closed for user root
+Jan  8 09:15:01 lm-ayismgit01 CRON[6030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:15:01 lm-ayismgit01 CRON[6030]: pam_unix(cron:session): session closed for user root
+Jan  8 09:17:01 lm-ayismgit01 CRON[6034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:17:01 lm-ayismgit01 CRON[6034]: pam_unix(cron:session): session closed for user root
+Jan  8 09:25:01 lm-ayismgit01 CRON[6039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:25:01 lm-ayismgit01 CRON[6039]: pam_unix(cron:session): session closed for user root
+Jan  8 09:35:01 lm-ayismgit01 CRON[6047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:35:01 lm-ayismgit01 CRON[6047]: pam_unix(cron:session): session closed for user root
+Jan  8 09:45:01 lm-ayismgit01 CRON[6052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:45:01 lm-ayismgit01 CRON[6052]: pam_unix(cron:session): session closed for user root
+Jan  8 09:55:01 lm-ayismgit01 CRON[6059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 09:55:01 lm-ayismgit01 CRON[6059]: pam_unix(cron:session): session closed for user root
+Jan  8 10:01:01 lm-ayismgit01 CRON[6063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:01:01 lm-ayismgit01 CRON[6063]: pam_unix(cron:session): session closed for user root
+Jan  8 10:05:01 lm-ayismgit01 CRON[6069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:05:01 lm-ayismgit01 CRON[6069]: pam_unix(cron:session): session closed for user root
+Jan  8 10:15:01 lm-ayismgit01 CRON[6074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:15:01 lm-ayismgit01 CRON[6074]: pam_unix(cron:session): session closed for user root
+Jan  8 10:17:01 lm-ayismgit01 CRON[6078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:17:01 lm-ayismgit01 CRON[6078]: pam_unix(cron:session): session closed for user root
+Jan  8 10:25:01 lm-ayismgit01 CRON[6085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:25:01 lm-ayismgit01 CRON[6085]: pam_unix(cron:session): session closed for user root
+Jan  8 10:35:01 lm-ayismgit01 CRON[6115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:35:01 lm-ayismgit01 CRON[6115]: pam_unix(cron:session): session closed for user root
+Jan  8 10:45:01 lm-ayismgit01 CRON[6121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:45:01 lm-ayismgit01 CRON[6121]: pam_unix(cron:session): session closed for user root
+Jan  8 10:55:01 lm-ayismgit01 CRON[6128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 10:55:01 lm-ayismgit01 CRON[6128]: pam_unix(cron:session): session closed for user root
+Jan  8 11:01:02 lm-ayismgit01 CRON[6132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:01:02 lm-ayismgit01 CRON[6132]: pam_unix(cron:session): session closed for user root
+Jan  8 11:05:01 lm-ayismgit01 CRON[6137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:05:01 lm-ayismgit01 CRON[6137]: pam_unix(cron:session): session closed for user root
+Jan  8 11:15:01 lm-ayismgit01 CRON[6145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:15:01 lm-ayismgit01 CRON[6145]: pam_unix(cron:session): session closed for user root
+Jan  8 11:17:01 lm-ayismgit01 CRON[6148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:17:01 lm-ayismgit01 CRON[6148]: pam_unix(cron:session): session closed for user root
+Jan  8 11:25:01 lm-ayismgit01 CRON[6155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:25:01 lm-ayismgit01 CRON[6155]: pam_unix(cron:session): session closed for user root
+Jan  8 11:35:01 lm-ayismgit01 CRON[6162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:35:01 lm-ayismgit01 CRON[6162]: pam_unix(cron:session): session closed for user root
+Jan  8 11:45:01 lm-ayismgit01 CRON[6170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:45:01 lm-ayismgit01 CRON[6170]: pam_unix(cron:session): session closed for user root
+Jan  8 11:55:01 lm-ayismgit01 CRON[6176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 11:55:01 lm-ayismgit01 CRON[6176]: pam_unix(cron:session): session closed for user root
+Jan  8 12:01:01 lm-ayismgit01 CRON[6302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:01:01 lm-ayismgit01 CRON[6302]: pam_unix(cron:session): session closed for user root
+Jan  8 12:05:01 lm-ayismgit01 CRON[6308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:05:01 lm-ayismgit01 CRON[6308]: pam_unix(cron:session): session closed for user root
+Jan  8 12:15:01 lm-ayismgit01 CRON[6346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:15:01 lm-ayismgit01 CRON[6346]: pam_unix(cron:session): session closed for user root
+Jan  8 12:17:01 lm-ayismgit01 CRON[6349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:17:01 lm-ayismgit01 CRON[6349]: pam_unix(cron:session): session closed for user root
+Jan  8 12:25:01 lm-ayismgit01 CRON[6355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:25:01 lm-ayismgit01 CRON[6355]: pam_unix(cron:session): session closed for user root
+Jan  8 12:35:01 lm-ayismgit01 CRON[6362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:35:01 lm-ayismgit01 CRON[6362]: pam_unix(cron:session): session closed for user root
+Jan  8 12:45:01 lm-ayismgit01 CRON[6370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:45:01 lm-ayismgit01 CRON[6370]: pam_unix(cron:session): session closed for user root
+Jan  8 12:55:01 lm-ayismgit01 CRON[6377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 12:55:01 lm-ayismgit01 CRON[6377]: pam_unix(cron:session): session closed for user root
+Jan  8 13:01:01 lm-ayismgit01 CRON[6382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:01:01 lm-ayismgit01 CRON[6382]: pam_unix(cron:session): session closed for user root
+Jan  8 13:05:01 lm-ayismgit01 CRON[6387]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:05:01 lm-ayismgit01 CRON[6387]: pam_unix(cron:session): session closed for user root
+Jan  8 13:15:01 lm-ayismgit01 CRON[6394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:15:01 lm-ayismgit01 CRON[6394]: pam_unix(cron:session): session closed for user root
+Jan  8 13:17:01 lm-ayismgit01 CRON[6398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:17:01 lm-ayismgit01 CRON[6398]: pam_unix(cron:session): session closed for user root
+Jan  8 13:25:01 lm-ayismgit01 CRON[6404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:25:01 lm-ayismgit01 CRON[6404]: pam_unix(cron:session): session closed for user root
+Jan  8 13:35:01 lm-ayismgit01 CRON[6410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:35:01 lm-ayismgit01 CRON[6410]: pam_unix(cron:session): session closed for user root
+Jan  8 13:45:01 lm-ayismgit01 CRON[6415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:45:01 lm-ayismgit01 CRON[6415]: pam_unix(cron:session): session closed for user root
+Jan  8 13:55:01 lm-ayismgit01 CRON[6423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 13:55:01 lm-ayismgit01 CRON[6423]: pam_unix(cron:session): session closed for user root
+Jan  8 14:01:01 lm-ayismgit01 CRON[6428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:01:01 lm-ayismgit01 CRON[6428]: pam_unix(cron:session): session closed for user root
+Jan  8 14:05:01 lm-ayismgit01 CRON[6433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:05:01 lm-ayismgit01 CRON[6433]: pam_unix(cron:session): session closed for user root
+Jan  8 14:15:01 lm-ayismgit01 CRON[6508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:15:01 lm-ayismgit01 CRON[6508]: pam_unix(cron:session): session closed for user root
+Jan  8 14:17:01 lm-ayismgit01 CRON[6511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:17:01 lm-ayismgit01 CRON[6511]: pam_unix(cron:session): session closed for user root
+Jan  8 14:25:01 lm-ayismgit01 CRON[6518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:25:01 lm-ayismgit01 CRON[6518]: pam_unix(cron:session): session closed for user root
+Jan  8 14:35:01 lm-ayismgit01 CRON[6523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:35:01 lm-ayismgit01 CRON[6523]: pam_unix(cron:session): session closed for user root
+Jan  8 14:45:01 lm-ayismgit01 CRON[6530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:45:01 lm-ayismgit01 CRON[6530]: pam_unix(cron:session): session closed for user root
+Jan  8 14:55:01 lm-ayismgit01 CRON[6536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 14:55:01 lm-ayismgit01 CRON[6536]: pam_unix(cron:session): session closed for user root
+Jan  8 15:01:01 lm-ayismgit01 CRON[6541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:01:01 lm-ayismgit01 CRON[6541]: pam_unix(cron:session): session closed for user root
+Jan  8 15:05:01 lm-ayismgit01 CRON[6547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:05:01 lm-ayismgit01 CRON[6547]: pam_unix(cron:session): session closed for user root
+Jan  8 15:15:01 lm-ayismgit01 CRON[6553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:15:01 lm-ayismgit01 CRON[6553]: pam_unix(cron:session): session closed for user root
+Jan  8 15:17:01 lm-ayismgit01 CRON[6557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:17:01 lm-ayismgit01 CRON[6557]: pam_unix(cron:session): session closed for user root
+Jan  8 15:25:01 lm-ayismgit01 CRON[6562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:25:01 lm-ayismgit01 CRON[6562]: pam_unix(cron:session): session closed for user root
+Jan  8 15:35:01 lm-ayismgit01 CRON[6568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:35:01 lm-ayismgit01 CRON[6568]: pam_unix(cron:session): session closed for user root
+Jan  8 15:45:01 lm-ayismgit01 CRON[6595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:45:01 lm-ayismgit01 CRON[6595]: pam_unix(cron:session): session closed for user root
+Jan  8 15:55:01 lm-ayismgit01 CRON[6601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 15:55:01 lm-ayismgit01 CRON[6601]: pam_unix(cron:session): session closed for user root
+Jan  8 16:01:01 lm-ayismgit01 CRON[6606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:01:01 lm-ayismgit01 CRON[6606]: pam_unix(cron:session): session closed for user root
+Jan  8 16:05:01 lm-ayismgit01 CRON[6612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:05:01 lm-ayismgit01 CRON[6612]: pam_unix(cron:session): session closed for user root
+Jan  8 16:15:01 lm-ayismgit01 CRON[6619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:15:01 lm-ayismgit01 CRON[6619]: pam_unix(cron:session): session closed for user root
+Jan  8 16:17:01 lm-ayismgit01 CRON[6623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:17:01 lm-ayismgit01 CRON[6623]: pam_unix(cron:session): session closed for user root
+Jan  8 16:25:01 lm-ayismgit01 CRON[6629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:25:01 lm-ayismgit01 CRON[6629]: pam_unix(cron:session): session closed for user root
+Jan  8 16:35:01 lm-ayismgit01 CRON[6635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:35:01 lm-ayismgit01 CRON[6635]: pam_unix(cron:session): session closed for user root
+Jan  8 16:45:01 lm-ayismgit01 CRON[6640]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:45:01 lm-ayismgit01 CRON[6640]: pam_unix(cron:session): session closed for user root
+Jan  8 16:55:01 lm-ayismgit01 CRON[6646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 16:55:01 lm-ayismgit01 CRON[6646]: pam_unix(cron:session): session closed for user root
+Jan  8 17:01:01 lm-ayismgit01 CRON[6650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:01:01 lm-ayismgit01 CRON[6650]: pam_unix(cron:session): session closed for user root
+Jan  8 17:05:01 lm-ayismgit01 CRON[6655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:05:01 lm-ayismgit01 CRON[6655]: pam_unix(cron:session): session closed for user root
+Jan  8 17:15:01 lm-ayismgit01 CRON[6660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:15:01 lm-ayismgit01 CRON[6660]: pam_unix(cron:session): session closed for user root
+Jan  8 17:17:01 lm-ayismgit01 CRON[6664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:17:01 lm-ayismgit01 CRON[6664]: pam_unix(cron:session): session closed for user root
+Jan  8 17:25:01 lm-ayismgit01 CRON[6669]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:25:01 lm-ayismgit01 CRON[6669]: pam_unix(cron:session): session closed for user root
+Jan  8 17:35:01 lm-ayismgit01 CRON[6676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:35:01 lm-ayismgit01 CRON[6676]: pam_unix(cron:session): session closed for user root
+Jan  8 17:45:01 lm-ayismgit01 CRON[6683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:45:01 lm-ayismgit01 CRON[6683]: pam_unix(cron:session): session closed for user root
+Jan  8 17:55:01 lm-ayismgit01 CRON[6690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 17:55:01 lm-ayismgit01 CRON[6690]: pam_unix(cron:session): session closed for user root
+Jan  8 18:01:01 lm-ayismgit01 CRON[6695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:01:01 lm-ayismgit01 CRON[6695]: pam_unix(cron:session): session closed for user root
+Jan  8 18:05:01 lm-ayismgit01 CRON[6700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:05:01 lm-ayismgit01 CRON[6700]: pam_unix(cron:session): session closed for user root
+Jan  8 18:15:01 lm-ayismgit01 CRON[6706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:15:01 lm-ayismgit01 CRON[6706]: pam_unix(cron:session): session closed for user root
+Jan  8 18:17:01 lm-ayismgit01 CRON[6709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:17:01 lm-ayismgit01 CRON[6709]: pam_unix(cron:session): session closed for user root
+Jan  8 18:25:01 lm-ayismgit01 CRON[6745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:25:01 lm-ayismgit01 CRON[6745]: pam_unix(cron:session): session closed for user root
+Jan  8 18:35:01 lm-ayismgit01 CRON[6750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:35:01 lm-ayismgit01 CRON[6750]: pam_unix(cron:session): session closed for user root
+Jan  8 18:45:01 lm-ayismgit01 CRON[6756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:45:01 lm-ayismgit01 CRON[6756]: pam_unix(cron:session): session closed for user root
+Jan  8 18:55:01 lm-ayismgit01 CRON[6762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 18:55:01 lm-ayismgit01 CRON[6762]: pam_unix(cron:session): session closed for user root
+Jan  8 19:01:01 lm-ayismgit01 CRON[6767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:01:01 lm-ayismgit01 CRON[6767]: pam_unix(cron:session): session closed for user root
+Jan  8 19:05:01 lm-ayismgit01 CRON[6772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:05:01 lm-ayismgit01 CRON[6772]: pam_unix(cron:session): session closed for user root
+Jan  8 19:15:01 lm-ayismgit01 CRON[6779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:15:01 lm-ayismgit01 CRON[6779]: pam_unix(cron:session): session closed for user root
+Jan  8 19:17:01 lm-ayismgit01 CRON[6783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:17:01 lm-ayismgit01 CRON[6783]: pam_unix(cron:session): session closed for user root
+Jan  8 19:25:01 lm-ayismgit01 CRON[6788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:25:01 lm-ayismgit01 CRON[6788]: pam_unix(cron:session): session closed for user root
+Jan  8 19:35:01 lm-ayismgit01 CRON[6795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:35:01 lm-ayismgit01 CRON[6795]: pam_unix(cron:session): session closed for user root
+Jan  8 19:45:01 lm-ayismgit01 CRON[6801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:45:01 lm-ayismgit01 CRON[6801]: pam_unix(cron:session): session closed for user root
+Jan  8 19:55:01 lm-ayismgit01 CRON[6808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 19:55:01 lm-ayismgit01 CRON[6808]: pam_unix(cron:session): session closed for user root
+Jan  8 20:01:01 lm-ayismgit01 CRON[6812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:01:01 lm-ayismgit01 CRON[6812]: pam_unix(cron:session): session closed for user root
+Jan  8 20:05:01 lm-ayismgit01 CRON[6817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:05:01 lm-ayismgit01 CRON[6817]: pam_unix(cron:session): session closed for user root
+Jan  8 20:15:01 lm-ayismgit01 CRON[6822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:15:01 lm-ayismgit01 CRON[6822]: pam_unix(cron:session): session closed for user root
+Jan  8 20:17:01 lm-ayismgit01 CRON[6826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:17:01 lm-ayismgit01 CRON[6826]: pam_unix(cron:session): session closed for user root
+Jan  8 20:25:01 lm-ayismgit01 CRON[6831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:25:01 lm-ayismgit01 CRON[6831]: pam_unix(cron:session): session closed for user root
+Jan  8 20:35:01 lm-ayismgit01 CRON[6837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:35:01 lm-ayismgit01 CRON[6837]: pam_unix(cron:session): session closed for user root
+Jan  8 20:45:01 lm-ayismgit01 CRON[6843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:45:01 lm-ayismgit01 CRON[6843]: pam_unix(cron:session): session closed for user root
+Jan  8 20:55:01 lm-ayismgit01 CRON[6850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 20:55:01 lm-ayismgit01 CRON[6850]: pam_unix(cron:session): session closed for user root
+Jan  8 21:01:01 lm-ayismgit01 CRON[6855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:01:01 lm-ayismgit01 CRON[6855]: pam_unix(cron:session): session closed for user root
+Jan  8 21:05:01 lm-ayismgit01 CRON[6860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:05:01 lm-ayismgit01 CRON[6860]: pam_unix(cron:session): session closed for user root
+Jan  8 21:15:01 lm-ayismgit01 CRON[6955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:15:01 lm-ayismgit01 CRON[6955]: pam_unix(cron:session): session closed for user root
+Jan  8 21:17:01 lm-ayismgit01 CRON[6959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:17:01 lm-ayismgit01 CRON[6959]: pam_unix(cron:session): session closed for user root
+Jan  8 21:25:01 lm-ayismgit01 CRON[6965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:25:01 lm-ayismgit01 CRON[6965]: pam_unix(cron:session): session closed for user root
+Jan  8 21:35:01 lm-ayismgit01 CRON[6972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:35:01 lm-ayismgit01 CRON[6972]: pam_unix(cron:session): session closed for user root
+Jan  8 21:45:01 lm-ayismgit01 CRON[6979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:45:01 lm-ayismgit01 CRON[6979]: pam_unix(cron:session): session closed for user root
+Jan  8 21:55:01 lm-ayismgit01 CRON[6985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 21:55:01 lm-ayismgit01 CRON[6985]: pam_unix(cron:session): session closed for user root
+Jan  8 22:01:01 lm-ayismgit01 CRON[7018]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:01:01 lm-ayismgit01 CRON[7018]: pam_unix(cron:session): session closed for user root
+Jan  8 22:05:01 lm-ayismgit01 CRON[7023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:05:01 lm-ayismgit01 CRON[7023]: pam_unix(cron:session): session closed for user root
+Jan  8 22:15:01 lm-ayismgit01 CRON[7029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:15:01 lm-ayismgit01 CRON[7029]: pam_unix(cron:session): session closed for user root
+Jan  8 22:17:01 lm-ayismgit01 CRON[7033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:17:01 lm-ayismgit01 CRON[7033]: pam_unix(cron:session): session closed for user root
+Jan  8 22:25:01 lm-ayismgit01 CRON[7039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:25:01 lm-ayismgit01 CRON[7039]: pam_unix(cron:session): session closed for user root
+Jan  8 22:35:01 lm-ayismgit01 CRON[7046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:35:01 lm-ayismgit01 CRON[7046]: pam_unix(cron:session): session closed for user root
+Jan  8 22:45:01 lm-ayismgit01 CRON[7052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:45:01 lm-ayismgit01 CRON[7052]: pam_unix(cron:session): session closed for user root
+Jan  8 22:55:01 lm-ayismgit01 CRON[7059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 22:55:01 lm-ayismgit01 CRON[7059]: pam_unix(cron:session): session closed for user root
+Jan  8 23:01:01 lm-ayismgit01 CRON[7063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:01:01 lm-ayismgit01 CRON[7063]: pam_unix(cron:session): session closed for user root
+Jan  8 23:05:01 lm-ayismgit01 CRON[7068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:05:01 lm-ayismgit01 CRON[7068]: pam_unix(cron:session): session closed for user root
+Jan  8 23:15:01 lm-ayismgit01 CRON[7075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:15:01 lm-ayismgit01 CRON[7075]: pam_unix(cron:session): session closed for user root
+Jan  8 23:17:01 lm-ayismgit01 CRON[7078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:17:01 lm-ayismgit01 CRON[7078]: pam_unix(cron:session): session closed for user root
+Jan  8 23:25:01 lm-ayismgit01 CRON[7084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:25:01 lm-ayismgit01 CRON[7084]: pam_unix(cron:session): session closed for user root
+Jan  8 23:28:01 lm-ayismgit01 CRON[7087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:28:01 lm-ayismgit01 CRON[7087]: pam_unix(cron:session): session closed for user root
+Jan  8 23:35:01 lm-ayismgit01 CRON[7092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:35:01 lm-ayismgit01 CRON[7092]: pam_unix(cron:session): session closed for user root
+Jan  8 23:45:01 lm-ayismgit01 CRON[7100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:45:01 lm-ayismgit01 CRON[7100]: pam_unix(cron:session): session closed for user root
+Jan  8 23:55:01 lm-ayismgit01 CRON[7106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:55:01 lm-ayismgit01 CRON[7106]: pam_unix(cron:session): session closed for user root
+Jan  8 23:59:01 lm-ayismgit01 CRON[7110]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  8 23:59:01 lm-ayismgit01 CRON[7110]: pam_unix(cron:session): session closed for user root
+Jan  9 00:01:01 lm-ayismgit01 CRON[7149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:01:01 lm-ayismgit01 CRON[7149]: pam_unix(cron:session): session closed for user root
+Jan  9 00:05:01 lm-ayismgit01 CRON[7154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:05:01 lm-ayismgit01 CRON[7154]: pam_unix(cron:session): session closed for user root
+Jan  9 00:15:01 lm-ayismgit01 CRON[7161]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:15:01 lm-ayismgit01 CRON[7161]: pam_unix(cron:session): session closed for user root
+Jan  9 00:17:01 lm-ayismgit01 CRON[7165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:17:01 lm-ayismgit01 CRON[7165]: pam_unix(cron:session): session closed for user root
+Jan  9 00:25:01 lm-ayismgit01 CRON[7171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:25:01 lm-ayismgit01 CRON[7171]: pam_unix(cron:session): session closed for user root
+Jan  9 00:35:01 lm-ayismgit01 CRON[7178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:35:01 lm-ayismgit01 CRON[7178]: pam_unix(cron:session): session closed for user root
+Jan  9 00:45:01 lm-ayismgit01 CRON[7184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:45:01 lm-ayismgit01 CRON[7184]: pam_unix(cron:session): session closed for user root
+Jan  9 00:55:01 lm-ayismgit01 CRON[7214]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 00:55:01 lm-ayismgit01 CRON[7214]: pam_unix(cron:session): session closed for user root
+Jan  9 01:01:01 lm-ayismgit01 CRON[7218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:01:01 lm-ayismgit01 CRON[7218]: pam_unix(cron:session): session closed for user root
+Jan  9 01:05:01 lm-ayismgit01 CRON[7223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:05:01 lm-ayismgit01 CRON[7223]: pam_unix(cron:session): session closed for user root
+Jan  9 01:15:01 lm-ayismgit01 CRON[7228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:15:01 lm-ayismgit01 CRON[7228]: pam_unix(cron:session): session closed for user root
+Jan  9 01:17:01 lm-ayismgit01 CRON[7232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:17:01 lm-ayismgit01 CRON[7232]: pam_unix(cron:session): session closed for user root
+Jan  9 01:25:01 lm-ayismgit01 CRON[7237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:25:01 lm-ayismgit01 CRON[7237]: pam_unix(cron:session): session closed for user root
+Jan  9 01:35:01 lm-ayismgit01 CRON[7243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:35:01 lm-ayismgit01 CRON[7243]: pam_unix(cron:session): session closed for user root
+Jan  9 01:45:01 lm-ayismgit01 CRON[7249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:45:01 lm-ayismgit01 CRON[7249]: pam_unix(cron:session): session closed for user root
+Jan  9 01:55:01 lm-ayismgit01 CRON[7255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 01:55:01 lm-ayismgit01 CRON[7255]: pam_unix(cron:session): session closed for user root
+Jan  9 02:01:01 lm-ayismgit01 CRON[7259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:01:01 lm-ayismgit01 CRON[7259]: pam_unix(cron:session): session closed for user root
+Jan  9 02:05:01 lm-ayismgit01 CRON[7264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:05:01 lm-ayismgit01 CRON[7264]: pam_unix(cron:session): session closed for user root
+Jan  9 02:15:01 lm-ayismgit01 CRON[7270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:15:01 lm-ayismgit01 CRON[7270]: pam_unix(cron:session): session closed for user root
+Jan  9 02:17:01 lm-ayismgit01 CRON[7274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:17:01 lm-ayismgit01 CRON[7274]: pam_unix(cron:session): session closed for user root
+Jan  9 02:25:01 lm-ayismgit01 CRON[7279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:25:01 lm-ayismgit01 CRON[7279]: pam_unix(cron:session): session closed for user root
+Jan  9 02:35:01 lm-ayismgit01 CRON[7285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:35:01 lm-ayismgit01 CRON[7285]: pam_unix(cron:session): session closed for user root
+Jan  9 02:45:01 lm-ayismgit01 CRON[7291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:45:01 lm-ayismgit01 CRON[7291]: pam_unix(cron:session): session closed for user root
+Jan  9 02:55:01 lm-ayismgit01 CRON[7296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 02:55:01 lm-ayismgit01 CRON[7296]: pam_unix(cron:session): session closed for user root
+Jan  9 03:01:01 lm-ayismgit01 CRON[7300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:01:01 lm-ayismgit01 CRON[7300]: pam_unix(cron:session): session closed for user root
+Jan  9 03:05:01 lm-ayismgit01 CRON[7305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:05:01 lm-ayismgit01 CRON[7305]: pam_unix(cron:session): session closed for user root
+Jan  9 03:10:01 lm-ayismgit01 CRON[7310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:10:01 lm-ayismgit01 CRON[7310]: pam_unix(cron:session): session closed for user root
+Jan  9 03:15:01 lm-ayismgit01 CRON[7314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:15:01 lm-ayismgit01 CRON[7314]: pam_unix(cron:session): session closed for user root
+Jan  9 03:17:01 lm-ayismgit01 CRON[7319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:17:01 lm-ayismgit01 CRON[7319]: pam_unix(cron:session): session closed for user root
+Jan  9 03:25:02 lm-ayismgit01 CRON[7324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:25:02 lm-ayismgit01 CRON[7324]: pam_unix(cron:session): session closed for user root
+Jan  9 03:35:01 lm-ayismgit01 CRON[7332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:35:01 lm-ayismgit01 CRON[7332]: pam_unix(cron:session): session closed for user root
+Jan  9 03:45:01 lm-ayismgit01 CRON[7339]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:45:01 lm-ayismgit01 CRON[7339]: pam_unix(cron:session): session closed for user root
+Jan  9 03:55:01 lm-ayismgit01 CRON[7345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 03:55:01 lm-ayismgit01 CRON[7345]: pam_unix(cron:session): session closed for user root
+Jan  9 04:01:01 lm-ayismgit01 CRON[7349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:01:01 lm-ayismgit01 CRON[7349]: pam_unix(cron:session): session closed for user root
+Jan  9 04:05:01 lm-ayismgit01 CRON[7354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:05:01 lm-ayismgit01 CRON[7354]: pam_unix(cron:session): session closed for user root
+Jan  9 04:15:01 lm-ayismgit01 CRON[7360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:15:01 lm-ayismgit01 CRON[7360]: pam_unix(cron:session): session closed for user root
+Jan  9 04:17:01 lm-ayismgit01 CRON[7364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:17:01 lm-ayismgit01 CRON[7364]: pam_unix(cron:session): session closed for user root
+Jan  9 04:25:01 lm-ayismgit01 CRON[7369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:25:01 lm-ayismgit01 CRON[7369]: pam_unix(cron:session): session closed for user root
+Jan  9 04:35:01 lm-ayismgit01 CRON[7375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:35:01 lm-ayismgit01 CRON[7375]: pam_unix(cron:session): session closed for user root
+Jan  9 04:45:01 lm-ayismgit01 CRON[7381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:45:01 lm-ayismgit01 CRON[7381]: pam_unix(cron:session): session closed for user root
+Jan  9 04:55:01 lm-ayismgit01 CRON[7388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 04:55:01 lm-ayismgit01 CRON[7388]: pam_unix(cron:session): session closed for user root
+Jan  9 05:01:01 lm-ayismgit01 CRON[7436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:01:01 lm-ayismgit01 CRON[7436]: pam_unix(cron:session): session closed for user root
+Jan  9 05:05:01 lm-ayismgit01 CRON[7465]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:05:01 lm-ayismgit01 CRON[7465]: pam_unix(cron:session): session closed for user root
+Jan  9 05:15:01 lm-ayismgit01 CRON[7470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:15:01 lm-ayismgit01 CRON[7470]: pam_unix(cron:session): session closed for user root
+Jan  9 05:17:01 lm-ayismgit01 CRON[7475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:17:01 lm-ayismgit01 CRON[7475]: pam_unix(cron:session): session closed for user root
+Jan  9 05:25:01 lm-ayismgit01 CRON[7481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:25:01 lm-ayismgit01 CRON[7481]: pam_unix(cron:session): session closed for user root
+Jan  9 05:35:01 lm-ayismgit01 CRON[7488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:35:01 lm-ayismgit01 CRON[7488]: pam_unix(cron:session): session closed for user root
+Jan  9 05:45:01 lm-ayismgit01 CRON[7493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:45:01 lm-ayismgit01 CRON[7493]: pam_unix(cron:session): session closed for user root
+Jan  9 05:55:01 lm-ayismgit01 CRON[7499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 05:55:01 lm-ayismgit01 CRON[7499]: pam_unix(cron:session): session closed for user root
+Jan  9 06:01:01 lm-ayismgit01 CRON[7503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:01:01 lm-ayismgit01 CRON[7503]: pam_unix(cron:session): session closed for user root
+Jan  9 06:05:01 lm-ayismgit01 CRON[7508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:05:01 lm-ayismgit01 CRON[7508]: pam_unix(cron:session): session closed for user root
+Jan  9 06:15:01 lm-ayismgit01 CRON[7634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:15:01 lm-ayismgit01 CRON[7634]: pam_unix(cron:session): session closed for user root
+Jan  9 06:17:01 lm-ayismgit01 CRON[7639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:17:01 lm-ayismgit01 CRON[7639]: pam_unix(cron:session): session closed for user root
+Jan  9 06:25:01 lm-ayismgit01 CRON[7645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:25:01 lm-ayismgit01 CRON[7645]: pam_unix(cron:session): session closed for user root
+Jan  9 06:25:01 lm-ayismgit01 CRON[7644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:25:01 lm-ayismgit01 CRON[7644]: pam_unix(cron:session): session closed for user root
+Jan  9 06:35:01 lm-ayismgit01 CRON[7742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:35:01 lm-ayismgit01 CRON[7742]: pam_unix(cron:session): session closed for user root
+Jan  9 06:45:01 lm-ayismgit01 CRON[7749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:45:01 lm-ayismgit01 CRON[7749]: pam_unix(cron:session): session closed for user root
+Jan  9 06:55:01 lm-ayismgit01 CRON[7757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 06:55:01 lm-ayismgit01 CRON[7757]: pam_unix(cron:session): session closed for user root
+Jan  9 07:01:01 lm-ayismgit01 CRON[7762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:01:01 lm-ayismgit01 CRON[7762]: pam_unix(cron:session): session closed for user root
+Jan  9 07:02:01 lm-ayismgit01 sshd[7767]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:02:02 lm-ayismgit01 sshd[7766]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:02:16 lm-ayismgit01 sshd[7768]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:03:56 lm-ayismgit01 sshd[7769]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:56 lm-ayismgit01 sshd[7770]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:56 lm-ayismgit01 sshd[7771]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:56 lm-ayismgit01 sshd[7772]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:57 lm-ayismgit01 sshd[7773]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:57 lm-ayismgit01 sshd[7774]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:57 lm-ayismgit01 sshd[7775]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:57 lm-ayismgit01 sshd[7776]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:57 lm-ayismgit01 sshd[7777]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:57 lm-ayismgit01 sshd[7779]: error: kex_exchange_identification: banner line contains invalid characters
+Jan  9 07:03:58 lm-ayismgit01 sshd[7778]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:03:59 lm-ayismgit01 sshd[7780]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:04:23 lm-ayismgit01 sshd[7781]: Invalid user  from 10.1.0.10 port 64416
+Jan  9 07:04:23 lm-ayismgit01 sshd[7781]: Connection reset by invalid user  10.1.0.10 port 64416 [preauth]
+Jan  9 07:04:23 lm-ayismgit01 sshd[7783]: Connection reset by 10.1.0.10 port 64436 [preauth]
+Jan  9 07:04:23 lm-ayismgit01 sshd[7785]: Connection reset by 10.1.0.10 port 64447 [preauth]
+Jan  9 07:04:23 lm-ayismgit01 sshd[7787]: error: Protocol major versions differ: 2 vs. 9
+Jan  9 07:04:24 lm-ayismgit01 sshd[7788]: error: Protocol major versions differ: 2 vs. 1
+Jan  9 07:04:25 lm-ayismgit01 sshd[7789]: Connection reset by 10.1.0.10 port 64716 [preauth]
+Jan  9 07:04:25 lm-ayismgit01 sshd[7791]: Unable to negotiate with 10.1.0.10 port 64719: no matching key exchange method found. Their offer: ${jndi:ldap://log4shell-ssh-b6rrBSlZIXjByt8AQpjY${lower:ten}.w.nessus.org/nessus} [preauth]
+Jan  9 07:04:25 lm-ayismgit01 sshd[7793]: Disconnecting 10.1.0.10 port 64721: bad service request ${jndi:ldap://log4shell-ssh-b6rrBSlZIXjByt8AQpjY${lower:ten}.w.nessus.org/nessus [preauth]
+Jan  9 07:04:25 lm-ayismgit01 sshd[7795]: Invalid user nessus from 10.1.0.10 port 64725
+Jan  9 07:04:25 lm-ayismgit01 sshd[7795]: fatal: userauth_finish: Connection reset by peer [preauth]
+Jan  9 07:04:25 lm-ayismgit01 sshd[7797]: Invalid user nessus from 10.1.0.10 port 64727
+Jan  9 07:04:25 lm-ayismgit01 sshd[7797]: fatal: userauth_finish: Connection reset by peer [preauth]
+Jan  9 07:04:25 lm-ayismgit01 sshd[7799]: Invalid user nessus from 10.1.0.10 port 64730
+Jan  9 07:04:25 lm-ayismgit01 sshd[7799]: fatal: userauth_finish: Connection reset by peer [preauth]
+Jan  9 07:04:25 lm-ayismgit01 sshd[7801]: Invalid user ${jndi from 10.1.0.10 port 64734
+Jan  9 07:04:25 lm-ayismgit01 sshd[7801]: pam_unix(sshd:auth): check pass; user unknown
+Jan  9 07:04:25 lm-ayismgit01 sshd[7801]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.0.10 
+Jan  9 07:04:25 lm-ayismgit01 sshd[7801]: pam_sss(sshd:auth): Request to sssd failed. Connection refused
+Jan  9 07:04:25 lm-ayismgit01 sshd[7803]: error: Protocol major versions differ: 2 vs. 1
+Jan  9 07:04:26 lm-ayismgit01 sshd[7804]: Connection reset by 10.1.0.10 port 64794 [preauth]
+Jan  9 07:04:26 lm-ayismgit01 sshd[7801]: Failed password for invalid user ${jndi from 10.1.0.10 port 64734 ssh2
+Jan  9 07:04:27 lm-ayismgit01 sshd[7806]: Connection reset by 10.1.0.10 port 64851 [preauth]
+Jan  9 07:04:27 lm-ayismgit01 sshd[7801]: Connection reset by invalid user ${jndi 10.1.0.10 port 64734 [preauth]
+Jan  9 07:04:28 lm-ayismgit01 sshd[7808]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:05:01 lm-ayismgit01 CRON[7809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:05:01 lm-ayismgit01 CRON[7809]: pam_unix(cron:session): session closed for user root
+Jan  9 07:07:45 lm-ayismgit01 sshd[7814]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:07:54 lm-ayismgit01 sshd[7815]: Connection reset by 10.1.0.10 port 64170 [preauth]
+Jan  9 07:08:23 lm-ayismgit01 sshd[7817]: Connection reset by 10.1.0.10 port 64339 [preauth]
+Jan  9 07:08:31 lm-ayismgit01 sshd[7819]: dispatch_protocol_error: type 52 seq 4 [preauth]
+Jan  9 07:08:31 lm-ayismgit01 sshd[7819]: dispatch_protocol_error: type 90 seq 5 [preauth]
+Jan  9 07:08:31 lm-ayismgit01 sshd[7819]: Connection reset by 10.1.0.10 port 64374 [preauth]
+Jan  9 07:08:44 lm-ayismgit01 sshd[7821]: error: kex_exchange_identification: read: Connection reset by peer
+Jan  9 07:15:01 lm-ayismgit01 CRON[7825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:15:01 lm-ayismgit01 CRON[7825]: pam_unix(cron:session): session closed for user root
+Jan  9 07:17:01 lm-ayismgit01 CRON[7829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:17:01 lm-ayismgit01 CRON[7829]: pam_unix(cron:session): session closed for user root
+Jan  9 07:25:01 lm-ayismgit01 CRON[7835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:25:01 lm-ayismgit01 CRON[7835]: pam_unix(cron:session): session closed for user root
+Jan  9 07:35:01 lm-ayismgit01 CRON[7864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:35:01 lm-ayismgit01 CRON[7864]: pam_unix(cron:session): session closed for user root
+Jan  9 07:45:01 lm-ayismgit01 CRON[7870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:45:01 lm-ayismgit01 CRON[7870]: pam_unix(cron:session): session closed for user root
+Jan  9 07:50:11 lm-ayismgit01 sshd[7875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.60.17  user=adiri
+Jan  9 07:50:11 lm-ayismgit01 sshd[7875]: pam_sss(sshd:auth): Request to sssd failed. Connection refused
+Jan  9 07:50:14 lm-ayismgit01 sshd[7875]: Failed password for adiri from 10.1.60.17 port 52022 ssh2
+Jan  9 07:50:21 lm-ayismgit01 sshd[7875]: Accepted password for adiri from 10.1.60.17 port 52022 ssh2
+Jan  9 07:50:21 lm-ayismgit01 sshd[7875]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 07:50:21 lm-ayismgit01 sshd[7875]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 07:50:21 lm-ayismgit01 systemd-logind[1101]: New session 537 of user adiri.
+Jan  9 07:50:21 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session opened for user adiri by (uid=0)
+Jan  9 07:50:46 lm-ayismgit01 dbus-daemon[1079]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan  9 07:55:01 lm-ayismgit01 CRON[8144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 07:55:01 lm-ayismgit01 CRON[8144]: pam_unix(cron:session): session closed for user root
+Jan  9 08:01:01 lm-ayismgit01 CRON[8160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:01:01 lm-ayismgit01 CRON[8160]: pam_unix(cron:session): session closed for user root
+Jan  9 08:02:32 lm-ayismgit01 sshd[8192]: Invalid user Aadiri from 10.1.60.17 port 52377
+Jan  9 08:02:36 lm-ayismgit01 sshd[8192]: pam_unix(sshd:auth): check pass; user unknown
+Jan  9 08:02:36 lm-ayismgit01 sshd[8192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.60.17 
+Jan  9 08:02:36 lm-ayismgit01 sshd[8192]: pam_sss(sshd:auth): Request to sssd failed. Connection refused
+Jan  9 08:02:38 lm-ayismgit01 sshd[8192]: Failed password for invalid user Aadiri from 10.1.60.17 port 52377 ssh2
+Jan  9 08:02:42 lm-ayismgit01 sshd[8192]: Connection closed by invalid user Aadiri 10.1.60.17 port 52377 [preauth]
+Jan  9 08:02:51 lm-ayismgit01 sshd[8194]: Accepted password for adiri from 10.1.60.17 port 52402 ssh2
+Jan  9 08:02:51 lm-ayismgit01 sshd[8194]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 08:02:51 lm-ayismgit01 sshd[8194]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 08:02:51 lm-ayismgit01 systemd-logind[1101]: New session 541 of user adiri.
+Jan  9 08:04:18 lm-ayismgit01 sshd[8194]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 08:04:18 lm-ayismgit01 sshd[8194]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 08:04:18 lm-ayismgit01 systemd-logind[1101]: Session 541 logged out. Waiting for processes to exit.
+Jan  9 08:04:19 lm-ayismgit01 systemd-logind[1101]: Removed session 541.
+Jan  9 08:04:34 lm-ayismgit01 sshd[7875]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 08:04:34 lm-ayismgit01 sshd[7875]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 08:04:34 lm-ayismgit01 systemd-logind[1101]: Session 537 logged out. Waiting for processes to exit.
+Jan  9 08:04:35 lm-ayismgit01 systemd-logind[1101]: Removed session 537.
+Jan  9 08:04:43 lm-ayismgit01 sshd[8341]: Accepted password for adiri from 10.1.60.17 port 52489 ssh2
+Jan  9 08:04:43 lm-ayismgit01 sshd[8341]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 08:04:43 lm-ayismgit01 sshd[8341]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 08:04:43 lm-ayismgit01 systemd-logind[1101]: New session 542 of user adiri.
+Jan  9 08:05:01 lm-ayismgit01 CRON[8448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:05:01 lm-ayismgit01 CRON[8448]: pam_unix(cron:session): session closed for user root
+Jan  9 08:05:05 lm-ayismgit01 passwd[8446]: pam_unix(passwd:chauthtok): password changed for adiri
+Jan  9 08:05:05 lm-ayismgit01 passwd[8446]: gkr-pam: gnome-keyring-daemon started properly
+Jan  9 08:05:05 lm-ayismgit01 passwd[8446]: gkr-pam: changed password for login keyring
+Jan  9 08:05:05 lm-ayismgit01 passwd[8446]: gkr-pam: stopped the daemon
+Jan  9 08:15:01 lm-ayismgit01 CRON[8469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:15:01 lm-ayismgit01 CRON[8469]: pam_unix(cron:session): session closed for user root
+Jan  9 08:17:01 lm-ayismgit01 CRON[8473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:17:01 lm-ayismgit01 CRON[8473]: pam_unix(cron:session): session closed for user root
+Jan  9 08:25:01 lm-ayismgit01 CRON[8479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:25:01 lm-ayismgit01 CRON[8479]: pam_unix(cron:session): session closed for user root
+Jan  9 08:35:01 lm-ayismgit01 CRON[8486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:35:01 lm-ayismgit01 CRON[8486]: pam_unix(cron:session): session closed for user root
+Jan  9 08:45:01 lm-ayismgit01 CRON[8493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:45:01 lm-ayismgit01 CRON[8493]: pam_unix(cron:session): session closed for user root
+Jan  9 08:55:01 lm-ayismgit01 CRON[8500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 08:55:01 lm-ayismgit01 CRON[8500]: pam_unix(cron:session): session closed for user root
+Jan  9 09:01:01 lm-ayismgit01 CRON[8537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:01:01 lm-ayismgit01 CRON[8537]: pam_unix(cron:session): session closed for user root
+Jan  9 09:05:01 lm-ayismgit01 CRON[8557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:05:01 lm-ayismgit01 CRON[8557]: pam_unix(cron:session): session closed for user root
+Jan  9 09:15:01 lm-ayismgit01 CRON[8562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:15:01 lm-ayismgit01 CRON[8562]: pam_unix(cron:session): session closed for user root
+Jan  9 09:17:01 lm-ayismgit01 CRON[8567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:17:01 lm-ayismgit01 CRON[8567]: pam_unix(cron:session): session closed for user root
+Jan  9 09:25:01 lm-ayismgit01 CRON[8616]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:25:01 lm-ayismgit01 CRON[8616]: pam_unix(cron:session): session closed for user root
+Jan  9 09:35:01 lm-ayismgit01 CRON[8626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:35:01 lm-ayismgit01 CRON[8626]: pam_unix(cron:session): session closed for user root
+Jan  9 09:38:11 lm-ayismgit01 sshd[8341]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 09:38:11 lm-ayismgit01 sshd[8341]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 09:38:11 lm-ayismgit01 systemd-logind[1101]: Session 542 logged out. Waiting for processes to exit.
+Jan  9 09:38:11 lm-ayismgit01 systemd-logind[1101]: Removed session 542.
+Jan  9 09:38:21 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session closed for user adiri
+Jan  9 09:38:31 lm-ayismgit01 sshd[8684]: Invalid user adm_adiri from 10.1.60.17 port 56585
+Jan  9 09:38:34 lm-ayismgit01 sshd[8684]: Connection closed by invalid user adm_adiri 10.1.60.17 port 56585 [preauth]
+Jan  9 09:38:45 lm-ayismgit01 sshd[8686]: Accepted password for adiri from 10.1.60.17 port 56597 ssh2
+Jan  9 09:38:45 lm-ayismgit01 sshd[8686]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 09:38:45 lm-ayismgit01 sshd[8686]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 09:38:45 lm-ayismgit01 systemd-logind[1101]: New session 556 of user adiri.
+Jan  9 09:38:45 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session opened for user adiri by (uid=0)
+Jan  9 09:39:10 lm-ayismgit01 dbus-daemon[1079]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan  9 09:45:01 lm-ayismgit01 CRON[8965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:45:01 lm-ayismgit01 CRON[8965]: pam_unix(cron:session): session closed for user root
+Jan  9 09:48:06 lm-ayismgit01 sshd[8686]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 09:48:06 lm-ayismgit01 sshd[8686]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 09:48:06 lm-ayismgit01 systemd-logind[1101]: Session 556 logged out. Waiting for processes to exit.
+Jan  9 09:48:06 lm-ayismgit01 systemd-logind[1101]: Removed session 556.
+Jan  9 09:48:27 lm-ayismgit01 sshd[9015]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.60.17  user=adiri
+Jan  9 09:48:27 lm-ayismgit01 sshd[9015]: pam_sss(sshd:auth): Request to sssd failed. Connection refused
+Jan  9 09:48:29 lm-ayismgit01 sshd[9015]: Failed password for adiri from 10.1.60.17 port 57183 ssh2
+Jan  9 09:48:32 lm-ayismgit01 sshd[9015]: Accepted password for adiri from 10.1.60.17 port 57183 ssh2
+Jan  9 09:48:32 lm-ayismgit01 sshd[9015]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 09:48:32 lm-ayismgit01 sshd[9015]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 09:48:32 lm-ayismgit01 systemd-logind[1101]: New session 559 of user adiri.
+Jan  9 09:48:32 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session opened for user adiri by (uid=0)
+Jan  9 09:48:58 lm-ayismgit01 dbus-daemon[1079]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan  9 09:51:02 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 09:51:05 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  9 09:51:05 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 09:51:21 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 09:51:42 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 09:51:42 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt-get update install git
+Jan  9 09:51:42 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 09:51:42 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 09:51:51 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 09:51:51 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt-get update git
+Jan  9 09:51:51 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 09:51:51 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 09:52:08 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 09:55:01 lm-ayismgit01 CRON[9170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 09:55:01 lm-ayismgit01 CRON[9170]: pam_unix(cron:session): session closed for user root
+Jan  9 10:00:53 lm-ayismgit01 sshd[9188]: Accepted password for adiri from 10.1.60.51 port 51443 ssh2
+Jan  9 10:00:53 lm-ayismgit01 sshd[9188]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 10:00:53 lm-ayismgit01 sshd[9188]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:00:53 lm-ayismgit01 systemd-logind[1101]: New session 562 of user adiri.
+Jan  9 10:01:01 lm-ayismgit01 CRON[9292]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:01:01 lm-ayismgit01 CRON[9292]: pam_unix(cron:session): session closed for user root
+Jan  9 10:01:27 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/1 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 10:01:31 lm-ayismgit01 sudo:    adiri : TTY=pts/1 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/sbin/adduser mkursatalkan
+Jan  9 10:01:31 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 10:01:31 lm-ayismgit01 groupadd[9301]: group added to /etc/group: name=mkursatalkan, GID=1002
+Jan  9 10:01:31 lm-ayismgit01 groupadd[9301]: group added to /etc/gshadow: name=mkursatalkan
+Jan  9 10:01:31 lm-ayismgit01 groupadd[9301]: new group: name=mkursatalkan, GID=1002
+Jan  9 10:01:31 lm-ayismgit01 useradd[9307]: new user: name=mkursatalkan, UID=1002, GID=1002, home=/home/mkursatalkan, shell=/bin/bash, from=/dev/pts/2
+Jan  9 10:01:35 lm-ayismgit01 passwd[9319]: pam_unix(passwd:chauthtok): new password not acceptable
+Jan  9 10:01:35 lm-ayismgit01 passwd[9319]: pam_sss(passwd:chauthtok): Request to sssd failed. Connection refused
+Jan  9 10:01:38 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:01:39 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/1 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 10:01:39 lm-ayismgit01 sudo:    adiri : TTY=pts/1 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/sbin/adduser mkursatalkan
+Jan  9 10:01:39 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 10:01:39 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:01:48 lm-ayismgit01 passwd[9324]: passwd: can't view or modify password information for mkursatalkan
+Jan  9 10:01:57 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/1 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 10:01:57 lm-ayismgit01 sudo:    adiri : TTY=pts/1 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/passwd mkursatalkan
+Jan  9 10:01:57 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 10:02:11 lm-ayismgit01 passwd[9327]: pam_unix(passwd:chauthtok): password changed for mkursatalkan
+Jan  9 10:02:11 lm-ayismgit01 passwd[9327]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 10:02:11 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:03:11 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/1 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 10:03:11 lm-ayismgit01 sudo:    adiri : TTY=pts/1 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/vi /etc/security/access.conf
+Jan  9 10:03:11 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 10:03:19 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:03:20 lm-ayismgit01 sshd[9188]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 10:03:20 lm-ayismgit01 sshd[9188]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:03:20 lm-ayismgit01 systemd-logind[1101]: Session 562 logged out. Waiting for processes to exit.
+Jan  9 10:03:20 lm-ayismgit01 systemd-logind[1101]: Removed session 562.
+Jan  9 10:03:29 lm-ayismgit01 sshd[9406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.60.51  user=mkursatalkan
+Jan  9 10:03:29 lm-ayismgit01 sshd[9406]: pam_sss(sshd:auth): Request to sssd failed. Connection refused
+Jan  9 10:03:31 lm-ayismgit01 sshd[9406]: Failed password for mkursatalkan from 10.1.60.51 port 51550 ssh2
+Jan  9 10:03:39 lm-ayismgit01 sshd[9406]: Accepted password for mkursatalkan from 10.1.60.51 port 51550 ssh2
+Jan  9 10:03:39 lm-ayismgit01 sshd[9406]: pam_unix(sshd:session): session opened for user mkursatalkan by (uid=0)
+Jan  9 10:03:39 lm-ayismgit01 sshd[9406]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:03:39 lm-ayismgit01 systemd-logind[1101]: New session 564 of user mkursatalkan.
+Jan  9 10:03:39 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session opened for user mkursatalkan by (uid=0)
+Jan  9 10:04:04 lm-ayismgit01 dbus-daemon[1079]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan  9 10:04:34 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 10:04:37 lm-ayismgit01 sudo: pam_unix(sudo:auth): authentication failure; logname=mkursatalkan uid=1002 euid=0 tty=/dev/pts/1 ruser=mkursatalkan rhost=  user=mkursatalkan
+Jan  9 10:04:37 lm-ayismgit01 sudo: pam_sss(sudo:auth): Request to sssd failed. Connection refused
+Jan  9 10:04:44 lm-ayismgit01 sudo: mkursatalkan : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get update git
+Jan  9 10:05:01 lm-ayismgit01 CRON[9526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:05:01 lm-ayismgit01 CRON[9526]: pam_unix(cron:session): session closed for user root
+Jan  9 10:05:16 lm-ayismgit01 sshd[9406]: pam_unix(sshd:session): session closed for user mkursatalkan
+Jan  9 10:05:16 lm-ayismgit01 sshd[9406]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:05:16 lm-ayismgit01 systemd-logind[1101]: Session 564 logged out. Waiting for processes to exit.
+Jan  9 10:05:16 lm-ayismgit01 systemd-logind[1101]: Removed session 564.
+Jan  9 10:05:23 lm-ayismgit01 sshd[9551]: Accepted password for adiri from 10.1.60.51 port 51624 ssh2
+Jan  9 10:05:23 lm-ayismgit01 sshd[9551]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 10:05:23 lm-ayismgit01 sshd[9551]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:05:23 lm-ayismgit01 systemd-logind[1101]: New session 567 of user adiri.
+Jan  9 10:05:35 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/1 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 10:05:37 lm-ayismgit01 sudo:    adiri : TTY=pts/1 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo mkursatalkan
+Jan  9 10:05:37 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 10:05:37 lm-ayismgit01 usermod[9659]: add 'mkursatalkan' to group 'sudo'
+Jan  9 10:05:37 lm-ayismgit01 usermod[9659]: add 'mkursatalkan' to shadow group 'sudo'
+Jan  9 10:05:37 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:05:48 lm-ayismgit01 sshd[9551]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 10:05:48 lm-ayismgit01 sshd[9551]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:05:48 lm-ayismgit01 systemd-logind[1101]: Session 567 logged out. Waiting for processes to exit.
+Jan  9 10:05:48 lm-ayismgit01 systemd-logind[1101]: Removed session 567.
+Jan  9 10:06:08 lm-ayismgit01 sshd[9688]: Accepted password for mkursatalkan from 10.1.60.51 port 51638 ssh2
+Jan  9 10:06:08 lm-ayismgit01 sshd[9688]: pam_unix(sshd:session): session opened for user mkursatalkan by (uid=0)
+Jan  9 10:06:08 lm-ayismgit01 sshd[9688]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:06:08 lm-ayismgit01 systemd-logind[1101]: New session 568 of user mkursatalkan.
+Jan  9 10:06:08 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session opened for user mkursatalkan by (uid=0)
+Jan  9 10:06:26 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 10:06:30 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get update git
+Jan  9 10:06:30 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 10:06:30 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:06:33 lm-ayismgit01 dbus-daemon[1079]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan  9 10:06:34 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 10:06:34 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get update install git
+Jan  9 10:06:34 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 10:06:34 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:06:45 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 10:06:45 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  9 10:06:45 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 10:06:58 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 10:15:01 lm-ayismgit01 CRON[9856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:15:01 lm-ayismgit01 CRON[9856]: pam_unix(cron:session): session closed for user root
+Jan  9 10:17:01 lm-ayismgit01 CRON[9859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:17:01 lm-ayismgit01 CRON[9859]: pam_unix(cron:session): session closed for user root
+Jan  9 10:25:01 lm-ayismgit01 CRON[9866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:25:01 lm-ayismgit01 CRON[9866]: pam_unix(cron:session): session closed for user root
+Jan  9 10:35:01 lm-ayismgit01 CRON[9874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:35:01 lm-ayismgit01 CRON[9874]: pam_unix(cron:session): session closed for user root
+Jan  9 10:40:43 lm-ayismgit01 sshd[9015]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 10:40:43 lm-ayismgit01 sshd[9015]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:40:43 lm-ayismgit01 systemd-logind[1101]: Session 559 logged out. Waiting for processes to exit.
+Jan  9 10:40:44 lm-ayismgit01 systemd-logind[1101]: Removed session 559.
+Jan  9 10:40:53 lm-ayismgit01 sshd[9900]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.1.60.17  user=adiri
+Jan  9 10:40:53 lm-ayismgit01 sshd[9900]: pam_sss(sshd:auth): Request to sssd failed. Connection refused
+Jan  9 10:40:55 lm-ayismgit01 sshd[9900]: Failed password for adiri from 10.1.60.17 port 59260 ssh2
+Jan  9 10:40:59 lm-ayismgit01 sshd[9900]: Accepted password for adiri from 10.1.60.17 port 59260 ssh2
+Jan  9 10:40:59 lm-ayismgit01 sshd[9900]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 10:40:59 lm-ayismgit01 sshd[9900]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 10:40:59 lm-ayismgit01 systemd-logind[1101]: New session 574 of user adiri.
+Jan  9 10:40:59 lm-ayismgit01 systemd: pam_unix(systemd-user:session): session opened for user adiri by (uid=0)
+Jan  9 10:41:25 lm-ayismgit01 dbus-daemon[1079]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan  9 10:42:57 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 10:45:01 lm-ayismgit01 CRON[10192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:45:01 lm-ayismgit01 CRON[10192]: pam_unix(cron:session): session closed for user root
+Jan  9 10:55:01 lm-ayismgit01 CRON[10199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:55:01 lm-ayismgit01 CRON[10199]: pam_unix(cron:session): session closed for user root
+Jan  9 10:59:55 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 10:59:59 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  9 10:59:59 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:00:05 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:00:58 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 11:00:58 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get updat
+Jan  9 11:00:58 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:00:58 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:00:58 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 11:00:58 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan  9 11:00:58 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:01:01 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:01:01 lm-ayismgit01 CRON[10227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:01:01 lm-ayismgit01 CRON[10227]: pam_unix(cron:session): session closed for user root
+Jan  9 11:04:44 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 11:04:44 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/vi /etc/apt/sources.list
+Jan  9 11:04:44 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:04:56 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:05:01 lm-ayismgit01 CRON[10344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:05:01 lm-ayismgit01 CRON[10344]: pam_unix(cron:session): session closed for user root
+Jan  9 11:05:07 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 11:05:07 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/vi /etc/apt/sources.list.curtin.old
+Jan  9 11:05:07 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:05:13 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:05:21 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 11:05:21 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/vi /etc/apt/sources.list.d
+Jan  9 11:05:21 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:05:24 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:05:29 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 11:05:29 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/vi /etc/apt/sources.list
+Jan  9 11:05:29 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:05:39 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:15:01 lm-ayismgit01 CRON[10421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:15:01 lm-ayismgit01 CRON[10421]: pam_unix(cron:session): session closed for user root
+Jan  9 11:17:01 lm-ayismgit01 CRON[10434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:17:01 lm-ayismgit01 CRON[10434]: pam_unix(cron:session): session closed for user root
+Jan  9 11:23:25 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/var/log ; USER=root ; 
+Jan  9 11:23:28 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/mkdir atacan
+Jan  9 11:23:28 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:23:28 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:24:54 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:24:54 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/cp test.txt /var/log/atacan/
+Jan  9 11:24:54 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:24:54 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:25:01 lm-ayismgit01 CRON[10527]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:25:01 lm-ayismgit01 CRON[10527]: pam_unix(cron:session): session closed for user root
+Jan  9 11:25:17 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:25:17 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/vi atacan.txt
+Jan  9 11:25:17 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:25:25 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:27:53 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:27:53 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git add atacan.txt
+Jan  9 11:27:53 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:27:53 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:28:40 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:28:40 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git add .
+Jan  9 11:28:40 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:28:40 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:33:01 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:33:01 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git push -u origin https://github.com/mkursatalkan/kursat.git
+Jan  9 11:33:01 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:33:01 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:33:33 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:33:33 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git add atacan.txt
+Jan  9 11:33:33 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:33:33 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:33:43 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:33:43 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git commit -m first commit
+Jan  9 11:33:43 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:33:43 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:34:18 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:34:18 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git branch -M main
+Jan  9 11:34:18 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:34:18 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:34:32 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:34:32 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git remote add origin https://github.com/mkursatalkan/kursat.git
+Jan  9 11:34:32 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:34:32 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:34:48 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:34:48 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git push -u origin main
+Jan  9 11:34:48 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:35:01 lm-ayismgit01 CRON[10670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:35:01 lm-ayismgit01 CRON[10670]: pam_unix(cron:session): session closed for user root
+Jan  9 11:35:09 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:35:31 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 11:35:31 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git push -u origin main
+Jan  9 11:35:31 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 11:35:37 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:45:01 lm-ayismgit01 CRON[10681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:45:01 lm-ayismgit01 CRON[10681]: pam_unix(cron:session): session closed for user root
+Jan  9 11:55:01 lm-ayismgit01 CRON[10686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:55:01 lm-ayismgit01 CRON[10686]: pam_unix(cron:session): session closed for user root
+Jan  9 12:01:01 lm-ayismgit01 CRON[10690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:01:01 lm-ayismgit01 CRON[10690]: pam_unix(cron:session): session closed for user root
+Jan  9 12:05:01 lm-ayismgit01 CRON[10695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:05:01 lm-ayismgit01 CRON[10695]: pam_unix(cron:session): session closed for user root
+Jan  9 12:15:01 lm-ayismgit01 CRON[10726]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:15:01 lm-ayismgit01 CRON[10726]: pam_unix(cron:session): session closed for user root
+Jan  9 12:15:58 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:16:06 lm-ayismgit01 sudo: pam_unix(sudo:auth): authentication failure; logname=mkursatalkan uid=1002 euid=0 tty=/dev/pts/1 ruser=mkursatalkan rhost=  user=mkursatalkan
+Jan  9 12:16:06 lm-ayismgit01 sudo: pam_sss(sudo:auth): Request to sssd failed. Connection refused
+Jan  9 12:16:15 lm-ayismgit01 sudo: pam_sss(sudo:auth): Request to sssd failed. Connection refused
+Jan  9 12:16:22 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git push -u origin main
+Jan  9 12:16:22 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:16:29 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:17:01 lm-ayismgit01 CRON[10739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:17:01 lm-ayismgit01 CRON[10739]: pam_unix(cron:session): session closed for user root
+Jan  9 12:17:13 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:17:13 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git push -u origin main
+Jan  9 12:17:13 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:17:22 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:18:48 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:18:48 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/git push -u origin main
+Jan  9 12:18:48 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:18:55 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:25:01 lm-ayismgit01 CRON[10807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:25:01 lm-ayismgit01 CRON[10807]: pam_unix(cron:session): session closed for user root
+Jan  9 12:25:17 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:25:21 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global https.proxy http://adiri:dJGJJGJ@10.1.200.207:8080
+Jan  9 12:25:21 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:25:21 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:25:30 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:25:30 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global https.proxy http://adiri:dJGJJGJ@10.1.200.207:8080
+Jan  9 12:25:30 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:25:30 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:25:32 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:25:32 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global https.proxy http://adiri:dJGJJGJ@10.1.200.207:8080
+Jan  9 12:25:32 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:25:32 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:25:55 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:25:55 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global https.proxy http://adiri:dJGJJGJ@10.1.200.207:8080
+Jan  9 12:25:55 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:25:56 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:27:30 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:27:30 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global https.proxy http://adiri:Direncan3.@10.1.200.207:8080
+Jan  9 12:27:30 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:27:31 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:28:46 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:28:46 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/vi /etc/environment
+Jan  9 12:28:46 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:29:13 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:29:36 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:29:36 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global https.proxy http://adiri:Direncan3.@10.1.200.207:8080
+Jan  9 12:29:36 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:29:36 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:29:43 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:29:43 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global http.proxy http://adiri:Direncan3.@10.1.200.207:8080
+Jan  9 12:29:43 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:29:44 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:30:59 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:31:05 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:31:05 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global http.proxy http://adiri:Direncan3.@10.1.200.207:8080
+Jan  9 12:31:05 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:31:05 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:31:10 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:31:14 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/0 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:31:14 lm-ayismgit01 sudo:    adiri : TTY=pts/0 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/apt install global http.proxy http://adiri:ff.@10.1.200.207:8080
+Jan  9 12:31:14 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:31:15 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:31:31 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 12:33:24 lm-ayismgit01 sudo: message repeated 3 times: [ mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; ]
+Jan  9 12:33:24 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/sbin/tcpdump -nni any host 10.1.200.207
+Jan  9 12:33:24 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:33:39 lm-ayismgit01 sshd[11023]: Accepted password for mkursatalkan from 10.1.60.51 port 56221 ssh2
+Jan  9 12:33:39 lm-ayismgit01 sshd[11023]: pam_unix(sshd:session): session opened for user mkursatalkan by (uid=0)
+Jan  9 12:33:39 lm-ayismgit01 sshd[11023]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:33:39 lm-ayismgit01 systemd-logind[1101]: New session 591 of user mkursatalkan.
+Jan  9 12:35:01 lm-ayismgit01 CRON[11271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:35:01 lm-ayismgit01 CRON[11271]: pam_unix(cron:session): session closed for user root
+Jan  9 12:36:08 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 12:36:53 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:37:10 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:40:05 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:40:05 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git init
+Jan  9 12:40:05 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:40:05 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:40:49 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:40:49 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vi proxy.txt
+Jan  9 12:40:49 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:40:54 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:40:54 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vi proxy.txt
+Jan  9 12:40:54 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:40:57 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:40:58 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:40:58 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vi proxy.txt
+Jan  9 12:40:58 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:41:03 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:41:09 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:41:09 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vi proxy1.txt
+Jan  9 12:41:09 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:41:13 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:42:07 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:42:07 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/mkdir test
+Jan  9 12:42:07 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:42:07 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:42:14 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:42:27 lm-ayismgit01 sudo: message repeated 2 times: [ mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; ]
+Jan  9 12:42:27 lm-ayismgit01 sudo: mkursatalkan : command not allowed ; TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+Jan  9 12:43:04 lm-ayismgit01 sshd[11399]: Accepted password for adiri from 10.1.60.51 port 56687 ssh2
+Jan  9 12:43:04 lm-ayismgit01 sshd[11399]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 12:43:04 lm-ayismgit01 sshd[11399]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:43:04 lm-ayismgit01 systemd-logind[1101]: New session 593 of user adiri.
+Jan  9 12:43:24 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/4 ; PWD=/etc ; USER=root ; 
+Jan  9 12:43:27 lm-ayismgit01 sudo: pam_unix(sudo:auth): authentication failure; logname=adiri uid=1001 euid=0 tty=/dev/pts/4 ruser=adiri rhost=  user=adiri
+Jan  9 12:43:27 lm-ayismgit01 sudo: pam_sss(sudo:auth): Request to sssd failed. Connection refused
+Jan  9 12:43:31 lm-ayismgit01 sudo:    adiri : TTY=pts/4 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vi sudoers
+Jan  9 12:43:31 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:44:06 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:44:14 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:45:01 lm-ayismgit01 CRON[11534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:45:01 lm-ayismgit01 CRON[11534]: pam_unix(cron:session): session closed for user root
+Jan  9 12:47:00 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/4 ; PWD=/ ; USER=root ; 
+Jan  9 12:47:00 lm-ayismgit01 sudo:    adiri : TTY=pts/4 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git status
+Jan  9 12:47:00 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:47:00 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:47:08 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/4 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 12:47:08 lm-ayismgit01 sudo:    adiri : TTY=pts/4 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/bin/git status
+Jan  9 12:47:08 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:47:08 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:47:19 lm-ayismgit01 sshd[11399]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 12:47:19 lm-ayismgit01 sshd[11399]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:47:19 lm-ayismgit01 systemd-logind[1101]: Session 593 logged out. Waiting for processes to exit.
+Jan  9 12:47:19 lm-ayismgit01 systemd-logind[1101]: Removed session 593.
+Jan  9 12:48:30 lm-ayismgit01 sshd[11608]: Accepted password for adiri from 10.1.60.51 port 56821 ssh2
+Jan  9 12:48:30 lm-ayismgit01 sshd[11608]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 12:48:30 lm-ayismgit01 sshd[11608]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:48:30 lm-ayismgit01 systemd-logind[1101]: New session 595 of user adiri.
+Jan  9 12:49:13 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/4 ; PWD=/home/adiri ; USER=root ; 
+Jan  9 12:49:18 lm-ayismgit01 sudo:    adiri : TTY=pts/4 ; PWD=/home/adiri ; USER=root ; COMMAND=/usr/bin/git push -u origin master
+Jan  9 12:49:18 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 12:49:18 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:52:40 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:52:40 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/chmod +x atacan/
+Jan  9 12:52:40 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:52:40 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:54:51 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/3 ; PWD=/var/log ; USER=root ; 
+Jan  9 12:54:51 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/3 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/mkdir test123
+Jan  9 12:54:51 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 12:54:51 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 12:55:01 lm-ayismgit01 CRON[11790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:55:01 lm-ayismgit01 CRON[11790]: pam_unix(cron:session): session closed for user root
+Jan  9 12:59:41 lm-ayismgit01 sshd[11608]: pam_unix(sshd:session): session closed for user adiri
+Jan  9 12:59:41 lm-ayismgit01 sshd[11608]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:59:41 lm-ayismgit01 systemd-logind[1101]: Session 595 logged out. Waiting for processes to exit.
+Jan  9 12:59:41 lm-ayismgit01 systemd-logind[1101]: Removed session 595.
+Jan  9 12:59:42 lm-ayismgit01 sshd[9688]: pam_unix(sshd:session): session closed for user mkursatalkan
+Jan  9 12:59:42 lm-ayismgit01 sshd[9688]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:59:42 lm-ayismgit01 systemd-logind[1101]: Session 568 logged out. Waiting for processes to exit.
+Jan  9 12:59:42 lm-ayismgit01 systemd-logind[1101]: Removed session 568.
+Jan  9 12:59:43 lm-ayismgit01 sshd[11023]: pam_unix(sshd:session): session closed for user mkursatalkan
+Jan  9 12:59:43 lm-ayismgit01 sshd[11023]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 12:59:43 lm-ayismgit01 systemd-logind[1101]: Session 591 logged out. Waiting for processes to exit.
+Jan  9 13:01:01 lm-ayismgit01 CRON[11843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:01:01 lm-ayismgit01 CRON[11843]: pam_unix(cron:session): session closed for user root
+Jan  9 13:01:59 lm-ayismgit01 sshd[11847]: Accepted password for mkursatalkan from 10.1.60.51 port 49946 ssh2
+Jan  9 13:01:59 lm-ayismgit01 sshd[11847]: pam_unix(sshd:session): session opened for user mkursatalkan by (uid=0)
+Jan  9 13:01:59 lm-ayismgit01 sshd[11847]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 13:01:59 lm-ayismgit01 systemd-logind[1101]: New session 598 of user mkursatalkan.
+Jan  9 13:05:00 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/var/log ; USER=root ; 
+Jan  9 13:05:01 lm-ayismgit01 CRON[11969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:05:01 lm-ayismgit01 CRON[11969]: pam_unix(cron:session): session closed for user root
+Jan  9 13:05:03 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/mkdir test555
+Jan  9 13:05:03 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 13:05:03 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 13:05:20 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/var/log ; USER=root ; 
+Jan  9 13:05:20 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/chmod +x test555
+Jan  9 13:05:20 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 13:05:20 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 13:05:53 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/etc ; USER=root ; 
+Jan  9 13:05:53 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/mkdir test333
+Jan  9 13:05:53 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
+Jan  9 13:05:53 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 13:06:11 lm-ayismgit01 sshd[11993]: Accepted password for adiri from 10.1.60.51 port 50222 ssh2
+Jan  9 13:06:11 lm-ayismgit01 sshd[11993]: pam_unix(sshd:session): session opened for user adiri by (uid=0)
+Jan  9 13:06:11 lm-ayismgit01 sshd[11993]: pam_sss(sshd:session): Request to sssd failed. Connection refused
+Jan  9 13:06:11 lm-ayismgit01 systemd-logind[1101]: New session 600 of user adiri.
+Jan  9 13:08:45 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/4 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 13:08:48 lm-ayismgit01 sudo: pam_unix(sudo:auth): conversation failed
+Jan  9 13:08:48 lm-ayismgit01 sudo: pam_unix(sudo:auth): auth could not identify password for [adiri]
+Jan  9 13:08:48 lm-ayismgit01 sudo: pam_sss(sudo:auth): Request to sssd failed. Connection refused
+Jan  9 13:10:11 lm-ayismgit01 sudo:    adiri : problem with defaults entries ; TTY=pts/4 ; PWD=/home/mkursatalkan ; USER=root ; 
+Jan  9 13:10:13 lm-ayismgit01 sudo:    adiri : TTY=pts/4 ; PWD=/home/mkursatalkan ; USER=root ; COMMAND=/usr/sbin/tcpdump -nni any host 10.1.48.67
+Jan  9 13:10:13 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by adiri(uid=0)
+Jan  9 13:10:18 lm-ayismgit01 sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 13:11:03 lm-ayismgit01 sudo: mkursatalkan : problem with defaults entries ; TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; 
+Jan  9 13:11:03 lm-ayismgit01 sudo: mkursatalkan : TTY=pts/1 ; PWD=/home/mkursatalkan/git/kursat ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/mkursatalkan/git/kursat/
+Jan  9 13:11:03 lm-ayismgit01 sudo: pam_unix(sudo:session): session opened for user root by mkursatalkan(uid=0)
